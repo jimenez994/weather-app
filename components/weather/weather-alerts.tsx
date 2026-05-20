@@ -40,7 +40,7 @@ const WeatherAlerts = memo(function WeatherAlerts({ alerts }: WeatherAlertsProps
                   />
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-white/90">{alert.headline}</p>
-                    <p className="text-xs text-white/50 mt-1 line-clamp-2">{alert.description}</p>
+                    <p className="text-xs text-white/60 mt-1 line-clamp-2">{alert.description}</p>
                   </div>
                   <ChevronRight className="w-4 h-4 text-white/30 flex-shrink-0 mt-0.5" />
                 </div>

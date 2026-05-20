@@ -31,7 +31,7 @@ const SunriseSunset = memo(function SunriseSunset({ daily }: SunriseSunsetProps)
     <AnimatedContainer delay={0.65}>
       <GlassCard className="p-4 md:p-6">
         <div className="flex items-center gap-2 mb-4">
-          <p className="text-xs font-medium text-white/50 uppercase tracking-widest">Sun</p>
+          <p className="text-xs font-medium text-white/55 uppercase tracking-widest">Sun</p>
           <MetricInfoPopover config={sunriseSunsetConfig(todaySunrise, todaySunset)} />
         </div>
 
@@ -82,13 +82,13 @@ const SunriseSunset = memo(function SunriseSunset({ daily }: SunriseSunsetProps)
               <Sunrise className="w-4 h-4 text-amber-400/70" />
               <div>
                 <p className="text-sm text-white/70 font-medium">{formatTime(todaySunrise)}</p>
-                <p className="text-[10px] text-white/40">Sunrise</p>
+                <p className="text-[10px] text-white/50">Sunrise</p>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <div className="text-right">
                 <p className="text-sm text-white/70 font-medium">{formatTime(todaySunset)}</p>
-                <p className="text-[10px] text-white/40">Sunset</p>
+                <p className="text-[10px] text-white/50">Sunset</p>
               </div>
               <Sunset className="w-4 h-4 text-amber-400/70" />
             </div>

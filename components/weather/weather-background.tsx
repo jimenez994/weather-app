@@ -93,8 +93,8 @@ export default function WeatherBackground({
   useEffect(() => {
     if (prev.current !== weatherCode) {
       controls.start({
-        opacity: [0.85, 1],
-        transition: { duration: 0.8 },
+        opacity: [0.92, 1],
+        transition: { duration: 0.35 },
       });
       prev.current = weatherCode;
     }
@@ -127,9 +127,9 @@ export default function WeatherBackground({
         </div>
       )}
 
-      {/* thunderstorm flash */}
+      {/* thunderstorm — subtle static overlay, no continuous animation */}
       {condition === "thunderstorm" && (
-        <div className="absolute inset-0 pointer-events-none bg-white/5 animate-pulse" />
+        <div className="absolute inset-0 pointer-events-none bg-white/[0.03]" />
       )}
 
       {/* content */}

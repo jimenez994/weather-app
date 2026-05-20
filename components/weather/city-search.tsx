@@ -100,7 +100,7 @@ export default function CitySearch() {
           }}
           onFocus={() => setIsOpen(true)}
           placeholder="Search city..."
-          className="w-full h-11 pl-11 pr-20 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 text-white placeholder:text-white/30 text-sm focus:outline-none focus:border-white/40 focus:bg-white/15 transition-all"
+          className="w-full h-11 pl-11 pr-20 rounded-full bg-white/10 backdrop-blur-xl border border-white/20 text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-white/40 focus:bg-white/15 transition-all"
         />
 
         <div className="absolute right-2 flex items-center gap-1">
@@ -149,7 +149,7 @@ export default function CitySearch() {
                   <p className="text-sm text-white/90 font-medium">
                     {city.name}
                   </p>
-                  <p className="text-xs text-white/40">
+                  <p className="text-xs text-white/50">
                     {city.admin1 ? `${city.admin1}, ` : ""}
                     {city.country}
                   </p>

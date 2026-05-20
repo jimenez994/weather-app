@@ -41,11 +41,11 @@ export default function FavoritesList() {
               className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm whitespace-nowrap transition-all border backdrop-blur-xl shrink-0 cursor-pointer ${
                 isActive
                   ? "bg-white/20 border-white/30 text-white shadow-lg"
-                  : "bg-white/5 border-white/10 text-white/60 hover:bg-white/10 hover:text-white/80"
+                  : "bg-white/5 border-white/10 text-white/70 hover:bg-white/10 hover:text-white/85"
               }`}
             >
               <Star
-                className={`w-3.5 h-3.5 ${isActive ? "fill-amber-300 text-amber-300" : "text-white/30"}`}
+                className={`w-3.5 h-3.5 ${isActive ? "fill-amber-300 text-amber-300" : "text-white/40"}`}
               />
               {city.name}
               <button

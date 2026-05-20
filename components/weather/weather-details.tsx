@@ -98,8 +98,8 @@ const WeatherDetails = memo(function WeatherDetails({ current }: WeatherDetailsP
             <GlassCard className="p-4 h-full">
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <card.icon className="w-4 h-4 text-white/60" />
-                  <p className="text-xs uppercase tracking-widest text-white/45">
+                  <card.icon className="w-4 h-4 text-white/70" />
+                  <p className="text-xs uppercase tracking-widest text-white/55">
                     {card.title}
                   </p>
                 </div>
@@ -110,7 +110,7 @@ const WeatherDetails = memo(function WeatherDetails({ current }: WeatherDetailsP
                 {card.value}
               </p>
 
-              <p className="text-sm text-white/50 mt-1">
+              <p className="text-sm text-white/65 mt-1">
                 {card.sub}
               </p>
             </GlassCard>
@@ -128,7 +128,7 @@ const WeatherDetails = memo(function WeatherDetails({ current }: WeatherDetailsP
             <div className="flex items-center justify-between gap-6">
               <div>
                 <div className="flex items-center gap-2">
-                  <p className="text-xs uppercase tracking-widest text-white/45">
+                  <p className="text-xs uppercase tracking-widest text-white/55">
                     UV Index
                   </p>
                   <MetricInfoPopover config={uvCfg} />

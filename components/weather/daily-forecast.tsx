@@ -15,7 +15,7 @@ const DailyForecast = memo(function DailyForecast({ data }: DailyForecastProps) 
   return (
     <AnimatedContainer delay={0.3}>
       <GlassCard className="p-4 md:p-6">
-        <p className="text-xs font-medium text-white/50 uppercase tracking-widest mb-4">
+        <p className="text-xs font-medium text-white/55 uppercase tracking-widest mb-4">
           7-Day Forecast
         </p>
         <div className="space-y-1">
@@ -37,18 +37,18 @@ const DailyForecast = memo(function DailyForecast({ data }: DailyForecastProps) 
                 className="flex items-center gap-3 py-2.5 px-3 rounded-xl hover:bg-white/5 transition-colors"
               >
                 <span className="w-20 text-sm font-medium text-white/70">{formatDay(day)}</span>
-                <Icon className="w-5 h-5 text-white/60 flex-shrink-0" />
+                <Icon className="w-5 h-5 text-white/70 flex-shrink-0" />
                 {data.precipitationProbabilityMax[i] > 0 ? (
                   <span className="text-[11px] text-blue-300/70 w-10 text-right">
                     {data.precipitationProbabilityMax[i]}%{" "}
-                    <span className="text-white/30">
+                    <span className="text-white/45">
                       {mmToInches(data.precipitationSum[i]).toFixed(2)}&quot;
                     </span>
                   </span>
                 ) : (
                   <span className="w-10" />
                 )}
-                <span className="text-sm text-white/50 w-10 text-right">{formatTemperature(minTemp)}</span>
+                <span className="text-sm text-white/65 w-10 text-right">{formatTemperature(minTemp)}</span>
                 <div className="flex-1 h-1.5 rounded-full bg-white/10 overflow-hidden relative mx-1">
                   <motion.div
                     className="absolute h-full rounded-full bg-gradient-to-r from-sky-400 to-amber-400"

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { memo, useState, useRef, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Info, X } from "lucide-react";
 
@@ -12,7 +12,7 @@ interface MetricInfoPopoverProps {
   className?: string;
 }
 
-export default function MetricInfoPopover({
+const MetricInfoPopover = memo(function MetricInfoPopover({
   config,
   size = "sm",
   className,
@@ -22,35 +22,32 @@ export default function MetricInfoPopover({
 
   const ranges = config?.ranges ?? [];
 
+  const { min, max, totalRange, valuePercent, activeColor, activeLabel } =
+    useMemo(() => {
+      if (!ranges.length) {
+        return { min: 0, max: 0, totalRange: 1, valuePercent: 0, activeColor: "#4ade80", activeLabel: "Unknown" };
+      }
+      const mn = ranges[0].min;
+      const mx = ranges[ranges.length - 1].max;
+      const tr = Math.max(mx - mn, 1);
+      const v = Number.isNaN(config.currentValue)
+        ? mn
+        : Math.min(Math.max(config.currentValue, mn), mx);
+      const vp = ((v - mn) / tr) * 100;
+      let ac = ranges[0].color;
+      let al = ranges[0].label;
+      for (const r of ranges) {
+        if (config.currentValue >= r.min && config.currentValue <= r.max) {
+          ac = r.color;
+          al = r.label;
+          break;
+        }
+      }
+      return { min: mn, max: mx, totalRange: tr, valuePercent: vp, activeColor: ac, activeLabel: al };
+    }, [config.currentValue, ranges]);
+
   // ❗ HARD SAFETY: prevents crashes + bad data
   if (!ranges.length) return null;
-
-  const min = ranges[0].min;
-  const max = ranges[ranges.length - 1].max;
-
-  const totalRange = Math.max(max - min, 1); // avoid divide-by-zero
-
-  const clamp = (val: number) => {
-    if (Number.isNaN(val)) return min;
-    return Math.min(Math.max(val, min), max);
-  };
-
-  const getValuePercent = () => {
-    const value = clamp(config.currentValue);
-    return ((value - min) / totalRange) * 100;
-  };
-
-  const getActiveRangeColor = () => {
-    for (const range of ranges) {
-      if (
-        config.currentValue >= range.min &&
-        config.currentValue <= range.max
-      ) {
-        return range.color;
-      }
-    }
-    return ranges[0].color;
-  };
 
   const iconSize = size === "sm" ? "w-3 h-3" : "w-4 h-4";
 
@@ -80,7 +77,7 @@ export default function MetricInfoPopover({
         className="p-1 rounded-full hover:bg-white/10 transition"
       >
         <Info
-          className={`${iconSize} text-white/30 hover:text-white/60 transition`}
+          className={`${iconSize} text-white/40 hover:text-white/70 transition`}
         />
       </button>
 
@@ -93,7 +90,7 @@ export default function MetricInfoPopover({
             transition={{ duration: 0.18 }}
             className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-72 z-50"
           >
-            <div className="rounded-2xl border border-white/10 bg-black/80 backdrop-blur-2xl p-4 shadow-2xl">
+            <div className="rounded-2xl border border-white/10 bg-black/85 backdrop-blur-md p-4 shadow-2xl">
               <div className="flex items-center justify-between mb-2">
                 <p className="text-sm font-semibold text-white">
                   {config.title}
@@ -107,7 +104,7 @@ export default function MetricInfoPopover({
                 </button>
               </div>
 
-              <p className="text-xs text-white/50 mb-3">
+              <p className="text-xs text-white/60 mb-3">
                 {config.description}
               </p>
 
@@ -115,7 +112,7 @@ export default function MetricInfoPopover({
                 <div className="flex items-baseline justify-between mb-2">
                   <span className="text-xl font-light text-white">
                     {config.currentValue}
-                    <span className="text-xs text-white/40 ml-1">
+                    <span className="text-xs text-white/50 ml-1">
                       {config.unit}
                     </span>
                   </span>
@@ -123,17 +120,11 @@ export default function MetricInfoPopover({
                   <span
                     className="text-[11px] px-2 py-0.5 rounded-full"
                     style={{
-                      backgroundColor: `${getActiveRangeColor()}20`,
-                      color: getActiveRangeColor(),
+                      backgroundColor: `${activeColor}20`,
+                      color: activeColor,
                     }}
                   >
-                    {
-                      ranges.find(
-                        (r) =>
-                          config.currentValue >= r.min &&
-                          config.currentValue <= r.max
-                      )?.label ?? "Unknown"
-                    }
+                    {activeLabel}
                   </span>
                 </div>
 
@@ -163,11 +154,11 @@ export default function MetricInfoPopover({
                   <motion.div
                     className="absolute top-1/2 -translate-y-1/2 w-3 h-3 rounded-full border border-white shadow"
                     style={{
-                      backgroundColor: getActiveRangeColor(),
+                      backgroundColor: activeColor,
                     }}
                     initial={{ left: 0 }}
-                    animate={{ left: `${getValuePercent()}%` }}
-                    transition={{ duration: 0.5 }}
+                    animate={{ left: `${valuePercent}%` }}
+                    transition={{ duration: 0.35 }}
                   />
                 </div>
 
@@ -186,7 +177,7 @@ export default function MetricInfoPopover({
               </div>
 
               {config.idealLabel && (
-                <p className="text-[11px] text-white/30 italic">
+                <p className="text-[11px] text-white/45 italic">
                   {config.idealLabel}
                 </p>
               )}
@@ -196,4 +187,6 @@ export default function MetricInfoPopover({
       </AnimatePresence>
     </div>
   );
-}
+});
+
+export default MetricInfoPopover;
