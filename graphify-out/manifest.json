@@ -1,0 +1,322 @@
+{
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/skills-lock.json": {
+    "mtime": 1778611865.3488648,
+    "ast_hash": "6d0156a3a4db8af1f237763a79028e25",
+    "semantic_hash": "6d0156a3a4db8af1f237763a79028e25"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/postcss.config.mjs": {
+    "mtime": 1778607399.1337576,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/package.json": {
+    "mtime": 1778608036.1978936,
+    "ast_hash": "afe0323b2c70672b599b4f38a36c77d2",
+    "semantic_hash": "afe0323b2c70672b599b4f38a36c77d2"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/tsconfig.json": {
+    "mtime": 1778607399.136809,
+    "ast_hash": "02fc19ad21338c2ab820a70136310db4",
+    "semantic_hash": "02fc19ad21338c2ab820a70136310db4"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/eslint.config.mjs": {
+    "mtime": 1778607399.1335518,
+    "ast_hash": "dfa1f5f6a7037bf39dc510f30b180002",
+    "semantic_hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/next.config.ts": {
+    "mtime": 1778615045.5693095,
+    "ast_hash": "1e2291d6d1824218dbc6dcb1bfc8c1f9",
+    "semantic_hash": "1e2291d6d1824218dbc6dcb1bfc8c1f9"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/types/weather.ts": {
+    "mtime": 1778950776.2433581,
+    "ast_hash": "93c3fddc40f79a2d954f91382d3e77e7",
+    "semantic_hash": "93c3fddc40f79a2d954f91382d3e77e7"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/app/layout.tsx": {
+    "mtime": 1778610338.909978,
+    "ast_hash": "60c8b29d88ecc8528acf890bc9195fab",
+    "semantic_hash": "60c8b29d88ecc8528acf890bc9195fab"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/app/page.tsx": {
+    "mtime": 1779309149.2410212,
+    "ast_hash": "c942a61a2599c6832fba8623becd77bc",
+    "semantic_hash": "c942a61a2599c6832fba8623becd77bc"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/app/providers.tsx": {
+    "mtime": 1778608167.0102327,
+    "ast_hash": "f5069dffcd18b41e41c8ae7ecb126dca",
+    "semantic_hash": "f5069dffcd18b41e41c8ae7ecb126dca"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/diagnose/scripts/hitl-loop.template.sh": {
+    "mtime": 1778611865.2828643,
+    "ast_hash": "46a2a00761be2785e59661f0e3c11471",
+    "semantic_hash": "46a2a00761be2785e59661f0e3c11471"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.claude/settings.local.json": {
+    "mtime": 1779543358.14801,
+    "ast_hash": "c8c3a8df47b3e56ff86ba101d941a010",
+    "semantic_hash": ""
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/ui/metric-info-popover.tsx": {
+    "mtime": 1779309198.8160853,
+    "ast_hash": "821b13f9bac98b32d528d69332feeb40",
+    "semantic_hash": "821b13f9bac98b32d528d69332feeb40"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/ui/glass-card.tsx": {
+    "mtime": 1779308593.0464609,
+    "ast_hash": "4ce137f13c129a319a000f0c3ece183d",
+    "semantic_hash": "4ce137f13c129a319a000f0c3ece183d"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/ui/animated-container.tsx": {
+    "mtime": 1778607726.3130608,
+    "ast_hash": "aa5e0243fbc6d1b277ef148d8e025cb6",
+    "semantic_hash": "aa5e0243fbc6d1b277ef148d8e025cb6"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/ui/skeleton.tsx": {
+    "mtime": 1778607754.502873,
+    "ast_hash": "5f4a0da0b47346296cc77b45e0dfd11c",
+    "semantic_hash": "5f4a0da0b47346296cc77b45e0dfd11c"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/daily-forecast.tsx": {
+    "mtime": 1779309088.5581162,
+    "ast_hash": "39cd554b12af304b275638b4ec11531f",
+    "semantic_hash": "39cd554b12af304b275638b4ec11531f"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/city-search.tsx": {
+    "mtime": 1779309139.903125,
+    "ast_hash": "8d24239b5070e6d8796ffc222a40a56c",
+    "semantic_hash": "8d24239b5070e6d8796ffc222a40a56c"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/weather-alerts.tsx": {
+    "mtime": 1779309144.4773767,
+    "ast_hash": "9f661c63af45a83dc3af8ac95e50389d",
+    "semantic_hash": "9f661c63af45a83dc3af8ac95e50389d"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/air-quality.tsx": {
+    "mtime": 1779309112.0519226,
+    "ast_hash": "bcd3b43fb51728aada5a280fd7a89ec8",
+    "semantic_hash": "bcd3b43fb51728aada5a280fd7a89ec8"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/sunrise-sunset.tsx": {
+    "mtime": 1779543337.702493,
+    "ast_hash": "3bc7da56cf479c42760e42a77a04c43b",
+    "semantic_hash": ""
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/particles.tsx": {
+    "mtime": 1779308717.589167,
+    "ast_hash": "0824ee4022b728ad83aa692690c42db7",
+    "semantic_hash": "0824ee4022b728ad83aa692690c42db7"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/forecast-chart.tsx": {
+    "mtime": 1778952544.4948802,
+    "ast_hash": "fabf83920ca43c51822e6e2d8aabde64",
+    "semantic_hash": "fabf83920ca43c51822e6e2d8aabde64"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/favorites-list.tsx": {
+    "mtime": 1779309188.9500785,
+    "ast_hash": "c6c64a03ed1aaba893f52b5bc5883ed6",
+    "semantic_hash": "c6c64a03ed1aaba893f52b5bc5883ed6"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/current-weather.tsx": {
+    "mtime": 1779309038.0787306,
+    "ast_hash": "b19548a6ea29167d553553dbd8e9c6f7",
+    "semantic_hash": "b19548a6ea29167d553553dbd8e9c6f7"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/hourly-forecast.tsx": {
+    "mtime": 1779309070.6324077,
+    "ast_hash": "f8ef814159e87dc3a44bb3be23709822",
+    "semantic_hash": "f8ef814159e87dc3a44bb3be23709822"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/weather-details.tsx": {
+    "mtime": 1779309055.4077353,
+    "ast_hash": "09e490fca1b409b42f28f327dfcbcf86",
+    "semantic_hash": "09e490fca1b409b42f28f327dfcbcf86"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/weather/weather-background.tsx": {
+    "mtime": 1779308577.1885393,
+    "ast_hash": "4926c3b8e4de94219ce763ecb31106c0",
+    "semantic_hash": "4926c3b8e4de94219ce763ecb31106c0"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/hooks/use-weather.ts": {
+    "mtime": 1778715253.873885,
+    "ast_hash": "d3b443fe69247d3f39c46fb0c8c77986",
+    "semantic_hash": "d3b443fe69247d3f39c46fb0c8c77986"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/hooks/use-geolocation.ts": {
+    "mtime": 1778713002.53281,
+    "ast_hash": "2b37c373df43283f18c5f0e8c96675c9",
+    "semantic_hash": "2b37c373df43283f18c5f0e8c96675c9"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/weather-cache.ts": {
+    "mtime": 1778713319.9844005,
+    "ast_hash": "badd079fc2acd39964ef976dbdf36b96",
+    "semantic_hash": "badd079fc2acd39964ef976dbdf36b96"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/metric-info-configs.ts": {
+    "mtime": 1778949269.9290235,
+    "ast_hash": "bc7ee760c7a2cdec96108b20a0f0c990",
+    "semantic_hash": "bc7ee760c7a2cdec96108b20a0f0c990"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/geocoding.ts": {
+    "mtime": 1778607659.5937355,
+    "ast_hash": "e6959cebd9d1802f3997dd5aa17b8b0e",
+    "semantic_hash": "e6959cebd9d1802f3997dd5aa17b8b0e"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/utils.ts": {
+    "mtime": 1779230688.2908983,
+    "ast_hash": "abd3bca769457a3763925f5acb83a973",
+    "semantic_hash": "abd3bca769457a3763925f5acb83a973"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/api.ts": {
+    "mtime": 1778950801.7607136,
+    "ast_hash": "d6d2080449a62242b473385f42f19120",
+    "semantic_hash": "d6d2080449a62242b473385f42f19120"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/retry.ts": {
+    "mtime": 1778713871.8559685,
+    "ast_hash": "ccbd450e6af19ac196f8166f90f7ef47",
+    "semantic_hash": "ccbd450e6af19ac196f8166f90f7ef47"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/constants.ts": {
+    "mtime": 1778610268.4932997,
+    "ast_hash": "f28cab64d0e85284d279dc9a2c754360",
+    "semantic_hash": "f28cab64d0e85284d279dc9a2c754360"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/types/metrics.ts": {
+    "mtime": 1778875175.7676992,
+    "ast_hash": "a749e183b6fda0939c305bcd69aa9fec",
+    "semantic_hash": "a749e183b6fda0939c305bcd69aa9fec"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/store/favorites.ts": {
+    "mtime": 1778607694.4551904,
+    "ast_hash": "45780f8719a78494c78d6061ae91b462",
+    "semantic_hash": "45780f8719a78494c78d6061ae91b462"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/store/weather.ts": {
+    "mtime": 1778613302.443699,
+    "ast_hash": "cf2743849b12c01505a5012c2f13ab35",
+    "semantic_hash": "cf2743849b12c01505a5012c2f13ab35"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/README.md": {
+    "mtime": 1779230768.8390937,
+    "ast_hash": "4c28cfce79506509e1b646b3c2b01701",
+    "semantic_hash": "4c28cfce79506509e1b646b3c2b01701"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/AGENTS.md": {
+    "mtime": 1778607419.0114772,
+    "ast_hash": "9e09241799026ac05be315a2f0b50055",
+    "semantic_hash": "9e09241799026ac05be315a2f0b50055"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/CLAUDE.md": {
+    "mtime": 1779542391.730291,
+    "ast_hash": "03e3d38ba74cf8886d3d8fc322d9da8a",
+    "semantic_hash": ""
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/setup-matt-pocock-skills/issue-tracker-gitlab.md": {
+    "mtime": 1778611865.3328426,
+    "ast_hash": "e91b1122d99f423b5375142a14b68f76",
+    "semantic_hash": "e91b1122d99f423b5375142a14b68f76"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/setup-matt-pocock-skills/domain.md": {
+    "mtime": 1778611865.3326097,
+    "ast_hash": "477d9959972912279da5677825ef61c3",
+    "semantic_hash": "477d9959972912279da5677825ef61c3"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/setup-matt-pocock-skills/triage-labels.md": {
+    "mtime": 1778611865.332872,
+    "ast_hash": "22add54cb98451c55b20e6b7992d4a85",
+    "semantic_hash": "22add54cb98451c55b20e6b7992d4a85"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/setup-matt-pocock-skills/SKILL.md": {
+    "mtime": 1778611865.3326082,
+    "ast_hash": "a9e22edd638f1b2bd5b3e2934eb209c3",
+    "semantic_hash": "a9e22edd638f1b2bd5b3e2934eb209c3"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/setup-matt-pocock-skills/issue-tracker-github.md": {
+    "mtime": 1778611865.3325536,
+    "ast_hash": "b3268117bb0bb6b731632d35d6a1369a",
+    "semantic_hash": "b3268117bb0bb6b731632d35d6a1369a"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/setup-matt-pocock-skills/issue-tracker-local.md": {
+    "mtime": 1778611865.3327088,
+    "ast_hash": "0f479992c0a4fd62a0d1be807f31e132",
+    "semantic_hash": "0f479992c0a4fd62a0d1be807f31e132"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/prototype/SKILL.md": {
+    "mtime": 1778611865.312706,
+    "ast_hash": "cff567de82e277cfd0e3b9e12b67cd2c",
+    "semantic_hash": "cff567de82e277cfd0e3b9e12b67cd2c"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/prototype/LOGIC.md": {
+    "mtime": 1778611865.3127055,
+    "ast_hash": "d57721452aacaa04caacd0bc7c5c2f49",
+    "semantic_hash": "d57721452aacaa04caacd0bc7c5c2f49"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/prototype/UI.md": {
+    "mtime": 1778611865.3128324,
+    "ast_hash": "c1eaad6437c90d5660b2ffc9ff91ffb4",
+    "semantic_hash": "c1eaad6437c90d5660b2ffc9ff91ffb4"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/diagnose/SKILL.md": {
+    "mtime": 1778611865.2827506,
+    "ast_hash": "70cd92c9a5219eb8db60629b1bf59949",
+    "semantic_hash": "70cd92c9a5219eb8db60629b1bf59949"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/to-issues/SKILL.md": {
+    "mtime": 1778611865.3441179,
+    "ast_hash": "a26ffd48dbf2d0ad29f65369b7dda42e",
+    "semantic_hash": "a26ffd48dbf2d0ad29f65369b7dda42e"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/caveman/SKILL.md": {
+    "mtime": 1778611865.2586517,
+    "ast_hash": "d675bd2128851ccb38a88a15fd941986",
+    "semantic_hash": "d675bd2128851ccb38a88a15fd941986"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.agents/skills/grill-me/SKILL.md": {
+    "mtime": 1778611865.2969108,
+    "ast_hash": "8cb45c74133150e6a00f18b2059aae8c",
+    "semantic_hash": "8cb45c74133150e6a00f18b2059aae8c"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/public/file.svg": {
+    "mtime": 1778607399.135065,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/public/vercel.svg": {
+    "mtime": 1778607399.135876,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": "c0af2f507b369b085b35ef4bbe3bcf1e"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/public/next.svg": {
+    "mtime": 1778607399.1352487,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": "8e061864f388b47f33a1c3780831193e"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/public/globe.svg": {
+    "mtime": 1778607399.1352942,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": "2aaafa6a49b6563925fe440891e32717"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/public/window.svg": {
+    "mtime": 1778607399.1361673,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": "a2760511c65806022ad20adf74370ff3"
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.claude/settings.json": {
+    "mtime": 1779542391.730508,
+    "ast_hash": "87f0d903477984d0587a02f8fe185263",
+    "semantic_hash": ""
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.claude/CLAUDE.md": {
+    "mtime": 1779542391.7293007,
+    "ast_hash": "db73b0edd7ffbc61ceac177130730865",
+    "semantic_hash": ""
+  },
+  "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.claude/skills/graphify/SKILL.md": {
+    "mtime": 1779542391.728852,
+    "ast_hash": "d03bd3b98c97110ec2dd0abc1b8dd654",
+    "semantic_hash": ""
+  }
+}

@@ -79,7 +79,7 @@ const SunriseSunset = memo(function SunriseSunset({ daily }: SunriseSunsetProps)
 
           <div className="flex justify-between mt-2">
             <div className="flex items-center gap-2">
-              <Sunrise className="w-4 h-4 text-amber-400/70" />
+              <Sunrise className="w-4 h-4 shrink-0 text-amber-400/70" />
               <div>
                 <p className="text-sm text-white/70 font-medium">{formatTime(todaySunrise)}</p>
                 <p className="text-[10px] text-white/50">Sunrise</p>
@@ -90,7 +90,7 @@ const SunriseSunset = memo(function SunriseSunset({ daily }: SunriseSunsetProps)
                 <p className="text-sm text-white/70 font-medium">{formatTime(todaySunset)}</p>
                 <p className="text-[10px] text-white/50">Sunset</p>
               </div>
-              <Sunset className="w-4 h-4 text-amber-400/70" />
+              <Sunset className="w-4 h-4 shrink-0 text-amber-400/70" />
             </div>
           </div>
         </div>
