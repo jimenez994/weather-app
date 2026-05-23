@@ -65,9 +65,11 @@ const CurrentWeather = memo(function CurrentWeather({ data, cityName }: CurrentW
           <span className="text-sm text-white/65">
             Feels like {formatTemperature(data.feelsLike)}
           </span>
-          <MetricInfoPopover
-            config={feelsLikeConfig(data.temperature, data.feelsLike)}
-          />
+          <span className="inline-flex shrink-0">
+            <MetricInfoPopover
+              config={feelsLikeConfig(data.temperature, data.feelsLike)}
+            />
+          </span>
         </motion.div>
       </div>
     </GlassCard>

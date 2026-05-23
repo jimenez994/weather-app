@@ -2,7 +2,7 @@
 
 import { useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart } from "lucide-react";
+import { Heart, MapPin, Loader2 } from "lucide-react";
 import { useWeather } from "@/hooks/use-weather";
 import { useGeolocation } from "@/hooks/use-geolocation";
 import { useWeatherStore } from "@/store/weather";
@@ -23,7 +23,7 @@ import { WeatherSkeleton } from "@/components/ui/skeleton";
 import AnimatedContainer from "@/components/ui/animated-container";
 
 export default function HomePage() {
-  const locationReady = useGeolocation();
+  const { getLocation, loading: geoLoading, error: geoError } = useGeolocation();
   const { data, isLoading, error } = useWeather();
   const { selectedCity } = useWeatherStore();
   const { addFavorite, removeFavorite, isFavorite } = useFavoritesStore();
@@ -65,7 +65,7 @@ export default function HomePage() {
   // -----------------------------
   // LOADING STATE
   // -----------------------------
-  const isFirstLoad = !data && (isLoading || !locationReady);
+  const isFirstLoad = !data && isLoading;
 
   if (isFirstLoad) {
     return (
@@ -125,6 +125,22 @@ export default function HomePage() {
             <CitySearch />
 
             <div className="flex items-center gap-2 shrink-0">
+              <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.96 }}
+                transition={{ duration: 0.15 }}
+                onClick={getLocation}
+                disabled={geoLoading}
+                className="p-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-md transition-colors hover:bg-white/20 disabled:opacity-50"
+                title={geoError ?? "Use my location"}
+              >
+                {geoLoading ? (
+                  <Loader2 className="w-4 h-4 text-white/60 animate-spin" />
+                ) : (
+                  <MapPin className="w-4 h-4 text-white/60" />
+                )}
+              </motion.button>
+
               <motion.button
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.96 }}

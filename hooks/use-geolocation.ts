@@ -1,83 +1,60 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState, useCallback } from "react";
 import { reverseGeocode } from "@/lib/geocoding";
 import { useWeatherStore } from "@/store/weather";
 import { DEFAULT_CITY } from "@/lib/constants";
 
 export function useGeolocation() {
   const { setSelectedCity } = useWeatherStore();
-  const [locationReady, setLocationReady] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    let isMounted = true;
+  const getLocation = useCallback(async () => {
+    setError(null);
 
-    const safeSetCity = (city: any) => {
-      if (isMounted) setSelectedCity(city);
-    };
-
-    const finalize = () => {
-      if (isMounted) setLocationReady(true);
-    };
-
-    // -----------------------------
-    // 1. NO GEOLOCATION SUPPORT
-    // -----------------------------
     if (!navigator.geolocation) {
-      safeSetCity(DEFAULT_CITY);
-      finalize();
-      return () => {
-        isMounted = false;
-      };
+      setSelectedCity(DEFAULT_CITY);
+      setError("Geolocation not supported by your browser.");
+      return;
     }
 
-    // -----------------------------
-    // 2. GEOLOCATION REQUEST
-    // -----------------------------
-    navigator.geolocation.getCurrentPosition(
-      async (pos) => {
-        try {
-          const city = await Promise.race([
-            reverseGeocode(
-              pos.coords.latitude,
-              pos.coords.longitude
-            ),
-            new Promise((_, reject) =>
-              setTimeout(() => reject("reverse timeout"), 5000)
-            ),
-          ]);
+    setLoading(true);
 
-          safeSetCity(city || DEFAULT_CITY);
-        } catch (error) {
-          console.error("Reverse geocoding failed:", error);
-          safeSetCity(DEFAULT_CITY);
-        } finally {
-          finalize();
+    try {
+      const position = await new Promise<GeolocationPosition>(
+        (resolve, reject) => {
+          navigator.geolocation.getCurrentPosition(resolve, reject, {
+            timeout: 8000,
+            maximumAge: 30 * 60 * 1000,
+            enableHighAccuracy: false,
+          });
         }
-      },
+      );
 
-      // -----------------------------
-      // 3. GEOLOCATION ERROR
-      // -----------------------------
-      () => {
-        safeSetCity(DEFAULT_CITY);
-        finalize();
-      },
+      const city = await Promise.race([
+        reverseGeocode(position.coords.latitude, position.coords.longitude),
+        new Promise<never>((_, reject) =>
+          setTimeout(() => reject(new Error("reverse timeout")), 5000)
+        ),
+      ]);
 
-      // -----------------------------
-      // 4. GEOLOCATION OPTIONS
-      // -----------------------------
-      {
-        timeout: 8000,
-        maximumAge: 30 * 60 * 1000,
-        enableHighAccuracy: false,
+      if (city) {
+        setSelectedCity(city);
+      } else {
+        setSelectedCity(DEFAULT_CITY);
       }
-    );
-
-    return () => {
-      isMounted = false;
-    };
+    } catch (err: any) {
+      if (err?.code === 1) {
+        setError("Location permission denied. Enable it in your browser settings.");
+      } else {
+        setError("Could not determine your location.");
+      }
+      setSelectedCity(DEFAULT_CITY);
+    } finally {
+      setLoading(false);
+    }
   }, [setSelectedCity]);
 
-  return locationReady;
+  return { getLocation, loading, error };
 }

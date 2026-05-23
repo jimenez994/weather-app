@@ -40,9 +40,9 @@
     "semantic_hash": "60c8b29d88ecc8528acf890bc9195fab"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/app/page.tsx": {
-    "mtime": 1779550248.8639846,
-    "ast_hash": "6ced12d0aa6d3040a73594a0d082bb19",
-    "semantic_hash": ""
+    "mtime": 1779309149.2410212,
+    "ast_hash": "c942a61a2599c6832fba8623becd77bc",
+    "semantic_hash": "c942a61a2599c6832fba8623becd77bc"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/app/providers.tsx": {
     "mtime": 1778608167.0102327,
@@ -145,9 +145,9 @@
     "semantic_hash": "d3b443fe69247d3f39c46fb0c8c77986"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/hooks/use-geolocation.ts": {
-    "mtime": 1779550195.0712848,
-    "ast_hash": "ffa843e6831a44c2f4e68ae6069e0336",
-    "semantic_hash": ""
+    "mtime": 1778713002.53281,
+    "ast_hash": "2b37c373df43283f18c5f0e8c96675c9",
+    "semantic_hash": "2b37c373df43283f18c5f0e8c96675c9"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/lib/weather-cache.ts": {
     "mtime": 1778713319.9844005,
@@ -195,9 +195,9 @@
     "semantic_hash": "45780f8719a78494c78d6061ae91b462"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/store/weather.ts": {
-    "mtime": 1779550180.1962209,
-    "ast_hash": "c271d116ed43b77628e7ad8da05594b8",
-    "semantic_hash": ""
+    "mtime": 1778613302.443699,
+    "ast_hash": "cf2743849b12c01505a5012c2f13ab35",
+    "semantic_hash": "cf2743849b12c01505a5012c2f13ab35"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/README.md": {
     "mtime": 1779230768.8390937,

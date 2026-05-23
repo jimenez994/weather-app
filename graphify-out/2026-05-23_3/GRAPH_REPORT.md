@@ -1,16 +1,16 @@
 # Graph Report - weather_app  (2026-05-23)
 
 ## Corpus Check
-- 59 files · ~24,341 words
+- 59 files · ~24,072 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 492 nodes · 659 edges · 45 communities (26 shown, 19 thin omitted)
+- 489 nodes · 656 edges · 46 communities (27 shown, 19 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 18 edges (avg confidence: 0.91)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `31eda10d`
+- Built from commit: `e189c610`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -44,6 +44,7 @@
 - [[_COMMUNITY_File Icon|File Icon]]
 - [[_COMMUNITY_Globe Icon|Globe Icon]]
 - [[_COMMUNITY_Window Icon|Window Icon]]
+- [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
 - [[_COMMUNITY_Community 31|Community 31]]
 - [[_COMMUNITY_Community 32|Community 32]]
@@ -79,10 +80,10 @@
   public/vercel.svg → README.md
 - `City` --shares_data_with--> `City Search`  [INFERRED]
   types/weather.ts → components/weather/city-search.tsx
-- `next/dist Docs Guide` --conceptually_related_to--> `Next.js`  [INFERRED]
-  AGENTS.md → README.md
 - `DailyForecast` --shares_data_with--> `Daily Forecast`  [INFERRED]
   types/weather.ts → components/weather/daily-forecast.tsx
+- `AirQuality` --shares_data_with--> `Air Quality`  [INFERRED]
+  types/weather.ts → components/weather/air-quality.tsx
 
 ## Hyperedges (group relationships)
 - **Weather Dashboard Component Composition** — app_page_homepage, components_weather_dailyforecast, components_weather_weatheralerts, components_weather_airquality, components_weather_citysearch [EXTRACTED 1.00]
@@ -95,11 +96,11 @@
 - **Setup Configuration Areas** — setup_matt_pocock_skills_skill_setup, setup_matt_pocock_skills_skill_issue_tracker, setup_matt_pocock_skills_skill_triage_labels, setup_matt_pocock_skills_skill_domain_docs [EXTRACTED 1.00]
 - **Prototype Branches** — prototype_skill_prototype, prototype_logic_prototype, prototype_ui_prototype [EXTRACTED 1.00]
 
-## Communities (45 total, 19 thin omitted)
+## Communities (46 total, 19 thin omitted)
 
 ### Community 0 - "Weather Metrics & Utilities"
-Cohesion: 0.12
-Nodes (27): airQualityConfig(), humidityConfig(), precipitationConfig(), pressureConfig(), sunriseSunsetConfig(), uvIndexConfig(), visibilityConfig(), windConfig() (+19 more)
+Cohesion: 0.07
+Nodes (51): WEATHER_CONDITIONS, airQualityConfig(), feelsLikeConfig(), humidityConfig(), precipitationConfig(), pressureConfig(), sunriseSunsetConfig(), uvIndexConfig() (+43 more)
 
 ### Community 1 - "Skills Registry"
 Cohesion: 0.06
@@ -110,8 +111,8 @@ Cohesion: 0.07
 Nodes (28): dependencies, clsx, date-fns, framer-motion, lucide-react, next, react, react-dom (+20 more)
 
 ### Community 3 - "Location & Favorites"
-Cohesion: 0.08
-Nodes (41): HomePage(), Animated Container, Glass Card, Metric Info Popover, Weather Skeleton, Air Quality, City Search, Daily Forecast (+33 more)
+Cohesion: 0.13
+Nodes (29): HomePage(), Animated Container, Glass Card, Metric Info Popover, Weather Skeleton, Air Quality, City Search, Daily Forecast (+21 more)
 
 ### Community 4 - "Core Weather Display"
 Cohesion: 0.06
@@ -122,24 +123,24 @@ Cohesion: 0.29
 Nodes (6): inter, metadata, RootLayout(), viewport, Providers(), Next.js Config
 
 ### Community 6 - "Forecast & API Layer"
-Cohesion: 0.08
-Nodes (30): feelsLikeConfig(), cn(), formatDay(), formatHour(), formatTemperature(), getWeatherIconComponent(), AnimatedContainerProps, variants (+22 more)
+Cohesion: 0.11
+Nodes (20): clampVisibility(), fetchWeatherData(), generateMockAlerts(), retryWithBackoff(), celsiusToFahrenheit(), formatHour(), getWeatherCache(), saveWeatherCache() (+12 more)
 
 ### Community 7 - "TypeScript Configuration"
 Cohesion: 0.10
 Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
 
 ### Community 8 - "Agent Skills Methodology"
-Cohesion: 0.05
-Nodes (36): Diagnose, Feedback Loop, Falsifiable Hypothesis, Iterate on the loop itself, Non-deterministic bugs, Phase 1 — Build a feedback loop, Phase 2 — Reproduce, Phase 3 — Hypothesise (+28 more)
+Cohesion: 0.10
+Nodes (19): GitHub Issue Tracker, GitLab Issue Tracker, Local Markdown Issue Tracker, Issue Tracker Config, Setup Matt Pocock Skills, Triage Labels Config, 1. Gather context, 2. Explore the codebase (optional) (+11 more)
 
 ### Community 9 - "UI Primitives & Alerts"
 Cohesion: 0.06
 Nodes (34): code:block1 (/graphify                                             # full), code:bash (if [ ! -f graphify-out/.graphify_python ]; then), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash (if [ ! -f graphify-out/.graphify_extract.json ]; then), code:bash ($(cat graphify-out/.graphify_python) -c "), code:bash ($(cat graphify-out/.graphify_python) -c ") (+26 more)
 
 ### Community 10 - "Weather Visual Effects"
-Cohesion: 0.19
-Nodes (11): BACKGROUND_GRADIENTS, WEATHER_CONDITIONS, getWeatherCondition(), getWeatherLabel(), Particle, RainParticlesComponent(), RainParticlesProps, dayGradients (+3 more)
+Cohesion: 0.22
+Nodes (8): BACKGROUND_GRADIENTS, Particle, RainParticlesComponent(), RainParticlesProps, dayGradients, nightGradients, Props, WeatherBackground()
 
 ### Community 11 - "Project Docs & Branding"
 Cohesion: 0.22
@@ -156,6 +157,10 @@ Nodes (6): Needs Info, Needs Triage, Ready for Agent, Ready for Human, Triage La
 ### Community 14 - "HITL Loop Script"
 Cohesion: 0.83
 Nodes (3): capture(), step(), hitl-loop.template.sh script
+
+### Community 29 - "Community 29"
+Cohesion: 0.11
+Nodes (17): Diagnose, Feedback Loop, Falsifiable Hypothesis, Iterate on the loop itself, Non-deterministic bugs, Phase 1 — Build a feedback loop, Phase 2 — Reproduce, Phase 3 — Hypothesise (+9 more)
 
 ### Community 30 - "Community 30"
 Cohesion: 0.13
@@ -198,7 +203,7 @@ Cohesion: 0.40
 Nodes (4): Conventions, Issue tracker: Local Markdown, When a skill says "fetch the relevant ticket", When a skill says "publish to the issue tracker"
 
 ## Knowledge Gaps
-- **276 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+271 more)
+- **275 isolated node(s):** `version`, `source`, `sourceType`, `skillPath`, `computedHash` (+270 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -206,15 +211,15 @@ Nodes (4): Conventions, Issue tracker: Local Markdown, When a skill says "fetch 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `What You Must Do When Invoked` connect `Core Weather Display` to `UI Primitives & Alerts`, `Community 31`?**
-  _High betweenness centrality (0.022) - this node is a cross-community bridge._
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
 - **Why does `/graphify` connect `UI Primitives & Alerts` to `Core Weather Display`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `HomePage()` connect `Location & Favorites` to `App Shell & Layout`?**
   _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `version`, `source`, `sourceType` to the rest of the system?**
-  _276 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _275 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Weather Metrics & Utilities` be split into smaller, more focused modules?**
-  _Cohesion score 0.11948790896159317 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06564364876385337 - nodes in this community are weakly interconnected._
 - **Should `Skills Registry` be split into smaller, more focused modules?**
   _Cohesion score 0.06060606060606061 - nodes in this community are weakly interconnected._
 - **Should `Package Dependencies` be split into smaller, more focused modules?**

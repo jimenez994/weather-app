@@ -24,15 +24,24 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
     align: "left" | "center" | "right";
   }>({ vertical: "top", align: "center" });
   const [btnRect, setBtnRect] = useState<DOMRect | null>(null);
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [popoverWidth, setPopoverWidth] = useState(288);
+
   const containerRef = useRef<HTMLDivElement>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
 
   const ranges = config?.ranges ?? [];
 
-  const { min, max, totalRange, valuePercent, activeColor, activeLabel } =
+  const { min, totalRange, valuePercent, activeColor, activeLabel } =
     useMemo(() => {
       if (!ranges.length) {
-        return { min: 0, max: 0, totalRange: 1, valuePercent: 0, activeColor: "#4ade80", activeLabel: "Unknown" };
+        return {
+          min: 0,
+          totalRange: 1,
+          valuePercent: 0,
+          activeColor: "#4ade80",
+          activeLabel: "Unknown",
+        };
       }
       const mn = ranges[0].min;
       const mx = ranges[ranges.length - 1].max;
@@ -50,34 +59,31 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
           break;
         }
       }
-      return { min: mn, max: mx, totalRange: tr, valuePercent: vp, activeColor: ac, activeLabel: al };
+      return { min: mn, totalRange: tr, valuePercent: vp, activeColor: ac, activeLabel: al };
     }, [config.currentValue, ranges]);
 
-  // HARD SAFETY: prevents crashes + bad data
   if (!ranges.length) return null;
 
   const iconSize = size === "sm" ? "w-3 h-3" : "w-4 h-4";
 
-  // close on outside click + scroll
+  // outside-click + scroll-to-close
   useEffect(() => {
     if (!isOpen) return;
 
-    let ignoreScrollUntil = Date.now() + 100;
+    const openTime = Date.now();
 
     const onOutsideClick = (e: MouseEvent) => {
       const target = e.target as Node;
-      const insideContainer =
-        containerRef.current && containerRef.current.contains(target);
-      const insidePopover =
-        popoverRef.current && popoverRef.current.contains(target);
-
-      if (!insideContainer && !insidePopover) {
+      if (
+        !containerRef.current?.contains(target) &&
+        !popoverRef.current?.contains(target)
+      ) {
         setIsOpen(false);
       }
     };
 
     const onScroll = () => {
-      if (Date.now() > ignoreScrollUntil) {
+      if (Date.now() - openTime > 80) {
         setIsOpen(false);
       }
     };
@@ -99,34 +105,40 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
           if (!isOpen) {
             const btn = (e.currentTarget as HTMLElement).getBoundingClientRect();
             setBtnRect(btn);
-            const estHeight = 280;
-            const estWidth = Math.min(288, window.innerWidth - 32);
 
-            const spaceAbove = btn.top;
-            const spaceBelow = window.innerHeight - btn.bottom;
+            const desktop = window.innerWidth >= 768;
+            setIsDesktop(desktop);
+
+            const pw = Math.min(288, window.innerWidth - (desktop ? 16 : 32));
+            setPopoverWidth(pw);
+            const halfWidth = pw / 2;
+            const viewportPad = desktop ? 8 : 16;
+
+            // --- horizontal alignment ---
+            const btnCenter = btn.left + btn.width / 2;
+            let align: "left" | "center" | "right" = "center";
+            if (btnCenter - halfWidth < viewportPad) align = "left";
+            else if (btnCenter + halfWidth > window.innerWidth - viewportPad) align = "right";
+
+            // --- vertical: flip below if not enough space above ---
+            const popoverHeight = 280;
+            const gap = desktop ? 8 : 12;
+            const spaceAbove = btn.top - gap;
+            const spaceBelow = window.innerHeight - btn.bottom - gap;
             const vertical =
-              spaceAbove < estHeight && spaceBelow > spaceAbove
+              spaceAbove < popoverHeight && spaceBelow > spaceAbove
                 ? "bottom"
                 : "top";
 
-            const btnCenter = btn.left + btn.width / 2;
-            const halfWidth = estWidth / 2;
-            let align: "left" | "center" | "right" = "center";
-            if (btnCenter - halfWidth < 16) align = "left";
-            else if (btnCenter + halfWidth > window.innerWidth - 16)
-              align = "right";
-
             setPlacement({ vertical, align });
+            setIsOpen(true);
           } else {
-            setBtnRect(null);
+            setIsOpen(false);
           }
-          setIsOpen((v) => !v);
         }}
         className="p-1 rounded-full hover:bg-white/10 transition"
       >
-        <Info
-          className={`${iconSize} text-white/40 hover:text-white/70 transition`}
-        />
+        <Info className={`${iconSize} text-white/40 hover:text-white/70`} />
       </button>
 
       {isOpen &&
@@ -134,8 +146,8 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
         createPortal(
           <AnimatePresence>
             <motion.div
-              key="metric-popover"
               ref={popoverRef}
+              key="metric-popover"
               initial={{
                 opacity: 0,
                 scale: 0.92,
@@ -156,25 +168,39 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
               }}
               transition={{ duration: 0.18 }}
               className="fixed z-[9999] w-72 max-w-[calc(100vw-2rem)]"
-              style={{
-                ...(placement.vertical === "top"
-                  ? { bottom: `${window.innerHeight - btnRect.top + 12}px` }
-                  : { top: `${btnRect.bottom + 12}px` }),
-                ...(placement.align === "center"
-                  ? { left: "50%" }
-                  : placement.align === "left"
-                    ? { left: `${Math.max(16, btnRect.left)}px` }
-                    : {
-                        right: `${Math.max(16, window.innerWidth - btnRect.right)}px`,
-                      }),
-              }}
+              style={(() => {
+                const pad = isDesktop ? 8 : 16;
+                const vGap = isDesktop ? 8 : 12;
+
+                // --- vertical ---
+                const vert =
+                  placement.vertical === "top"
+                    ? { bottom: `${window.innerHeight - btnRect.top + vGap}px` as const }
+                    : { top: `${btnRect.bottom + vGap}px` as const };
+
+                // --- horizontal ---
+                const maxLeft = window.innerWidth - pad - popoverWidth;
+                let horiz: Record<string, string>;
+                if (placement.align === "center") {
+                  horiz = { left: `${btnRect.left + btnRect.width / 2}px` };
+                } else if (placement.align === "left") {
+                  const left = Math.max(pad, Math.min(btnRect.left, maxLeft));
+                  horiz = { left: `${left}px` };
+                } else {
+                  const maxRight = window.innerWidth - pad - popoverWidth;
+                  const idealRight = window.innerWidth - btnRect.right;
+                  const right = Math.max(pad, Math.min(idealRight, maxRight));
+                  horiz = { right: `${right}px` };
+                }
+
+                return { ...vert, ...horiz };
+              })()}
             >
               <div className="rounded-2xl border border-white/10 bg-black/85 backdrop-blur-md p-4 shadow-2xl max-h-[calc(100vh-2rem)] overflow-y-auto">
                 <div className="flex items-center justify-between mb-2">
                   <p className="text-sm font-semibold text-white">
                     {config.title}
                   </p>
-
                   <button
                     onClick={() => setIsOpen(false)}
                     className="p-1 rounded-full hover:bg-white/10"
@@ -195,7 +221,6 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
                         {config.unit}
                       </span>
                     </span>
-
                     <span
                       className="text-[11px] px-2 py-0.5 rounded-full"
                       style={{
@@ -207,51 +232,24 @@ const MetricInfoPopover = memo(function MetricInfoPopover({
                     </span>
                   </div>
 
-                  {/* RANGE BAR */}
                   <div className="relative h-2 rounded-full bg-white/10 overflow-hidden">
-                    {ranges.map((range) => {
-                      const width =
-                        ((range.max - range.min) / totalRange) * 100;
+                    {ranges.map((range) => (
+                      <div
+                        key={range.label}
+                        className="absolute h-full"
+                        style={{
+                          left: `${((range.min - min) / totalRange) * 100}%`,
+                          width: `${((range.max - range.min) / totalRange) * 100}%`,
+                          backgroundColor: `${range.color}40`,
+                        }}
+                      />
+                    ))}
 
-                      const left =
-                        ((range.min - min) / totalRange) * 100;
-
-                      return (
-                        <div
-                          key={range.label}
-                          className="absolute h-full"
-                          style={{
-                            left: `${left}%`,
-                            width: `${width}%`,
-                            backgroundColor: `${range.color}40`,
-                          }}
-                        />
-                      );
-                    })}
-
-                    {/* POINTER */}
                     <motion.div
                       className="absolute top-1/2 -translate-y-1/2 w-3 h-3 rounded-full border border-white shadow"
-                      style={{
-                        backgroundColor: activeColor,
-                      }}
-                      initial={{ left: 0 }}
+                      style={{ backgroundColor: activeColor }}
                       animate={{ left: `${valuePercent}%` }}
-                      transition={{ duration: 0.35 }}
                     />
-                  </div>
-
-                  {/* LABELS */}
-                  <div className="flex justify-between mt-1.5">
-                    {ranges.map((r) => (
-                      <span
-                        key={r.label}
-                        className="text-[9px]"
-                        style={{ color: `${r.color}90` }}
-                      >
-                        {r.label}
-                      </span>
-                    ))}
                   </div>
                 </div>
 

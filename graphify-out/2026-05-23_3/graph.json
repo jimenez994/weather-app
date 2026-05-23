@@ -972,7 +972,7 @@
       "source_file": "types/weather.ts",
       "source_location": "L22",
       "id": "types_weather_currentweather",
-      "community": 3,
+      "community": 0,
       "norm_label": "currentweather"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "types/weather.ts",
       "source_location": "L67",
       "id": "types_weather_hourlyforecast",
-      "community": 3,
+      "community": 6,
       "norm_label": "hourlyforecast"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "types/weather.ts",
       "source_location": "L78",
       "id": "types_weather_dailyforecast",
-      "community": 3,
+      "community": 0,
       "norm_label": "dailyforecast"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "types/weather.ts",
       "source_location": "L94",
       "id": "types_weather_airquality",
-      "community": 3,
+      "community": 0,
       "norm_label": "airquality"
     },
     {
@@ -1249,7 +1249,7 @@
       "source_file": "components/ui/glass-card.tsx",
       "source_location": "L1",
       "id": "components_ui_glass_card_tsx",
-      "community": 6,
+      "community": 0,
       "norm_label": "glass-card.tsx"
     },
     {
@@ -1258,7 +1258,7 @@
       "source_file": "components/ui/glass-card.tsx",
       "source_location": "L6",
       "id": "ui_glass_card_glasscardprops",
-      "community": 6,
+      "community": 0,
       "norm_label": "glasscardprops"
     },
     {
@@ -1267,7 +1267,7 @@
       "source_file": "components/ui/glass-card.tsx",
       "source_location": "L13",
       "id": "ui_glass_card_glasscard",
-      "community": 6,
+      "community": 0,
       "norm_label": "glasscard()"
     },
     {
@@ -1276,7 +1276,7 @@
       "source_file": "components/ui/animated-container.tsx",
       "source_location": "L1",
       "id": "components_ui_animated_container_tsx",
-      "community": 6,
+      "community": 0,
       "norm_label": "animated-container.tsx"
     },
     {
@@ -1285,7 +1285,7 @@
       "source_file": "components/ui/animated-container.tsx",
       "source_location": "L6",
       "id": "ui_animated_container_variants",
-      "community": 6,
+      "community": 0,
       "norm_label": "variants"
     },
     {
@@ -1294,7 +1294,7 @@
       "source_file": "components/ui/animated-container.tsx",
       "source_location": "L15",
       "id": "ui_animated_container_animatedcontainerprops",
-      "community": 6,
+      "community": 0,
       "norm_label": "animatedcontainerprops"
     },
     {
@@ -1303,7 +1303,7 @@
       "source_file": "components/ui/animated-container.tsx",
       "source_location": "L21",
       "id": "ui_animated_container_animatedcontainer",
-      "community": 6,
+      "community": 0,
       "norm_label": "animatedcontainer()"
     },
     {
@@ -1312,7 +1312,7 @@
       "source_file": "components/ui/skeleton.tsx",
       "source_location": "L1",
       "id": "components_ui_skeleton_tsx",
-      "community": 6,
+      "community": 0,
       "norm_label": "skeleton.tsx"
     },
     {
@@ -1321,7 +1321,7 @@
       "source_file": "components/ui/skeleton.tsx",
       "source_location": "L3",
       "id": "ui_skeleton_skeletonprops",
-      "community": 6,
+      "community": 0,
       "norm_label": "skeletonprops"
     },
     {
@@ -1330,7 +1330,7 @@
       "source_file": "components/ui/skeleton.tsx",
       "source_location": "L7",
       "id": "ui_skeleton_skeleton",
-      "community": 6,
+      "community": 0,
       "norm_label": "skeleton()"
     },
     {
@@ -1339,7 +1339,7 @@
       "source_file": "components/ui/skeleton.tsx",
       "source_location": "L18",
       "id": "ui_skeleton_weatherskeleton",
-      "community": 6,
+      "community": 0,
       "norm_label": "weatherskeleton()"
     },
     {
@@ -1348,7 +1348,7 @@
       "source_file": "components/weather/daily-forecast.tsx",
       "source_location": "L1",
       "id": "components_weather_daily_forecast_tsx",
-      "community": 6,
+      "community": 0,
       "norm_label": "daily-forecast.tsx"
     },
     {
@@ -1357,7 +1357,7 @@
       "source_file": "components/weather/daily-forecast.tsx",
       "source_location": "L10",
       "id": "weather_daily_forecast_dailyforecastprops",
-      "community": 6,
+      "community": 0,
       "norm_label": "dailyforecastprops"
     },
     {
@@ -1366,7 +1366,7 @@
       "source_file": "components/weather/daily-forecast.tsx",
       "source_location": "L14",
       "id": "weather_daily_forecast_dailyforecast",
-      "community": 6,
+      "community": 0,
       "norm_label": "dailyforecast"
     },
     {
@@ -1645,7 +1645,7 @@
       "source_file": "components/weather/current-weather.tsx",
       "source_location": "L1",
       "id": "components_weather_current_weather_tsx",
-      "community": 6,
+      "community": 0,
       "norm_label": "current-weather.tsx"
     },
     {
@@ -1654,7 +1654,7 @@
       "source_file": "components/weather/current-weather.tsx",
       "source_location": "L11",
       "id": "weather_current_weather_currentweatherprops",
-      "community": 6,
+      "community": 0,
       "norm_label": "currentweatherprops"
     },
     {
@@ -1663,7 +1663,7 @@
       "source_file": "components/weather/current-weather.tsx",
       "source_location": "L16",
       "id": "weather_current_weather_currentweather",
-      "community": 6,
+      "community": 0,
       "norm_label": "currentweather"
     },
     {
@@ -1672,7 +1672,7 @@
       "source_file": "components/weather/hourly-forecast.tsx",
       "source_location": "L1",
       "id": "components_weather_hourly_forecast_tsx",
-      "community": 6,
+      "community": 0,
       "norm_label": "hourly-forecast.tsx"
     },
     {
@@ -1681,7 +1681,7 @@
       "source_file": "components/weather/hourly-forecast.tsx",
       "source_location": "L10",
       "id": "weather_hourly_forecast_hourlyforecastprops",
-      "community": 6,
+      "community": 0,
       "norm_label": "hourlyforecastprops"
     },
     {
@@ -1690,7 +1690,7 @@
       "source_file": "components/weather/hourly-forecast.tsx",
       "source_location": "L14",
       "id": "weather_hourly_forecast_hourlyforecast",
-      "community": 6,
+      "community": 0,
       "norm_label": "hourlyforecast"
     },
     {
@@ -1807,7 +1807,7 @@
       "source_file": "lib/weather-cache.ts",
       "source_location": "L1",
       "id": "lib_weather_cache_ts",
-      "community": 3,
+      "community": 6,
       "norm_label": "weather-cache.ts"
     },
     {
@@ -1816,7 +1816,7 @@
       "source_file": "lib/weather-cache.ts",
       "source_location": "L5",
       "id": "lib_weather_cache_saveweathercache",
-      "community": 3,
+      "community": 6,
       "norm_label": "saveweathercache()"
     },
     {
@@ -1825,7 +1825,7 @@
       "source_file": "lib/weather-cache.ts",
       "source_location": "L17",
       "id": "lib_weather_cache_getweathercache",
-      "community": 3,
+      "community": 6,
       "norm_label": "getweathercache()"
     },
     {
@@ -1843,7 +1843,7 @@
       "source_file": "lib/metric-info-configs.ts",
       "source_location": "L13",
       "id": "lib_metric_info_configs_feelslikeconfig",
-      "community": 6,
+      "community": 0,
       "norm_label": "feelslikeconfig()"
     },
     {
@@ -1978,7 +1978,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L17",
       "id": "lib_utils_getweathericoncomponent",
-      "community": 6,
+      "community": 0,
       "norm_label": "getweathericoncomponent()"
     },
     {
@@ -1987,7 +1987,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L22",
       "id": "lib_utils_cn",
-      "community": 6,
+      "community": 0,
       "norm_label": "cn()"
     },
     {
@@ -1996,7 +1996,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L27",
       "id": "lib_utils_getweatherlabel",
-      "community": 10,
+      "community": 0,
       "norm_label": "getweatherlabel()"
     },
     {
@@ -2014,7 +2014,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L35",
       "id": "lib_utils_getweathercondition",
-      "community": 10,
+      "community": 0,
       "norm_label": "getweathercondition()"
     },
     {
@@ -2023,7 +2023,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L39",
       "id": "lib_utils_celsiustofahrenheit",
-      "community": 3,
+      "community": 6,
       "norm_label": "celsiustofahrenheit()"
     },
     {
@@ -2068,7 +2068,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L59",
       "id": "lib_utils_formattemperature",
-      "community": 6,
+      "community": 0,
       "norm_label": "formattemperature()"
     },
     {
@@ -2122,7 +2122,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L101",
       "id": "lib_utils_formatday",
-      "community": 6,
+      "community": 0,
       "norm_label": "formatday()"
     },
     {
@@ -2158,7 +2158,7 @@
       "source_file": "lib/api.ts",
       "source_location": "L1",
       "id": "lib_api_ts",
-      "community": 3,
+      "community": 6,
       "norm_label": "api.ts"
     },
     {
@@ -2167,7 +2167,7 @@
       "source_file": "lib/api.ts",
       "source_location": "L12",
       "id": "lib_api_safefetch",
-      "community": 3,
+      "community": 6,
       "norm_label": "safefetch()"
     },
     {
@@ -2176,7 +2176,7 @@
       "source_file": "lib/api.ts",
       "source_location": "L26",
       "id": "lib_api_clampvisibility",
-      "community": 3,
+      "community": 6,
       "norm_label": "clampvisibility()"
     },
     {
@@ -2185,7 +2185,7 @@
       "source_file": "lib/api.ts",
       "source_location": "L36",
       "id": "lib_api_fetchweatherdata",
-      "community": 3,
+      "community": 6,
       "norm_label": "fetchweatherdata()"
     },
     {
@@ -2194,7 +2194,7 @@
       "source_file": "lib/api.ts",
       "source_location": "L218",
       "id": "lib_api_generatemockalerts",
-      "community": 3,
+      "community": 6,
       "norm_label": "generatemockalerts()"
     },
     {
@@ -2203,7 +2203,7 @@
       "source_file": "lib/retry.ts",
       "source_location": "L1",
       "id": "lib_retry_ts",
-      "community": 3,
+      "community": 6,
       "norm_label": "retry.ts"
     },
     {
@@ -2212,7 +2212,7 @@
       "source_file": "lib/retry.ts",
       "source_location": "L1",
       "id": "lib_retry_retrywithbackoff",
-      "community": 3,
+      "community": 6,
       "norm_label": "retrywithbackoff()"
     },
     {
@@ -2230,7 +2230,7 @@
       "source_file": "lib/constants.ts",
       "source_location": "L3",
       "id": "lib_constants_weather_conditions",
-      "community": 10,
+      "community": 0,
       "norm_label": "weather_conditions"
     },
     {
@@ -2315,28 +2315,10 @@
       "norm_label": "weather.ts"
     },
     {
-      "label": "readCachedLocation()",
-      "file_type": "code",
-      "source_file": "store/weather.ts",
-      "source_location": "L7",
-      "id": "store_weather_readcachedlocation",
-      "community": 3,
-      "norm_label": "readcachedlocation()"
-    },
-    {
-      "label": "writeCachedLocation()",
-      "file_type": "code",
-      "source_file": "store/weather.ts",
-      "source_location": "L27",
-      "id": "store_weather_writecachedlocation",
-      "community": 3,
-      "norm_label": "writecachedlocation()"
-    },
-    {
       "label": "WeatherState",
       "file_type": "code",
       "source_file": "store/weather.ts",
-      "source_location": "L35",
+      "source_location": "L5",
       "id": "store_weather_weatherstate",
       "community": 3,
       "norm_label": "weatherstate"
@@ -2345,19 +2327,10 @@
       "label": "useWeatherStore",
       "file_type": "code",
       "source_file": "store/weather.ts",
-      "source_location": "L41",
+      "source_location": "L10",
       "id": "store_weather_useweatherstore",
       "community": 3,
       "norm_label": "useweatherstore"
-    },
-    {
-      "label": "cached",
-      "file_type": "code",
-      "source_file": "store/weather.ts",
-      "source_location": "L53",
-      "id": "store_weather_cached",
-      "community": 3,
-      "norm_label": "cached"
     },
     {
       "label": "README.md",
@@ -3049,7 +3022,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L1",
       "id": "agents_skills_diagnose_skill_md",
-      "community": 8,
+      "community": 29,
       "norm_label": "skill.md"
     },
     {
@@ -3058,7 +3031,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L6",
       "id": "diagnose_skill_diagnose",
-      "community": 8,
+      "community": 29,
       "norm_label": "diagnose"
     },
     {
@@ -3067,7 +3040,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L12",
       "id": "diagnose_skill_phase_1_build_a_feedback_loop",
-      "community": 8,
+      "community": 29,
       "norm_label": "phase 1 \u2014 build a feedback loop"
     },
     {
@@ -3076,7 +3049,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L18",
       "id": "diagnose_skill_ways_to_construct_one_try_them_in_roughly_this_order",
-      "community": 8,
+      "community": 29,
       "norm_label": "ways to construct one \u2014 try them in roughly this order"
     },
     {
@@ -3085,7 +3058,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L33",
       "id": "diagnose_skill_iterate_on_the_loop_itself",
-      "community": 8,
+      "community": 29,
       "norm_label": "iterate on the loop itself"
     },
     {
@@ -3094,7 +3067,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L43",
       "id": "diagnose_skill_non_deterministic_bugs",
-      "community": 8,
+      "community": 29,
       "norm_label": "non-deterministic bugs"
     },
     {
@@ -3103,7 +3076,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L47",
       "id": "diagnose_skill_when_you_genuinely_cannot_build_a_loop",
-      "community": 8,
+      "community": 29,
       "norm_label": "when you genuinely cannot build a loop"
     },
     {
@@ -3112,7 +3085,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L53",
       "id": "diagnose_skill_phase_2_reproduce",
-      "community": 8,
+      "community": 29,
       "norm_label": "phase 2 \u2014 reproduce"
     },
     {
@@ -3121,7 +3094,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L65",
       "id": "diagnose_skill_phase_3_hypothesise",
-      "community": 8,
+      "community": 29,
       "norm_label": "phase 3 \u2014 hypothesise"
     },
     {
@@ -3130,7 +3103,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L77",
       "id": "diagnose_skill_phase_4_instrument",
-      "community": 8,
+      "community": 29,
       "norm_label": "phase 4 \u2014 instrument"
     },
     {
@@ -3139,7 +3112,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L91",
       "id": "diagnose_skill_phase_5_fix_regression_test",
-      "community": 8,
+      "community": 29,
       "norm_label": "phase 5 \u2014 fix + regression test"
     },
     {
@@ -3148,7 +3121,7 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L107",
       "id": "diagnose_skill_phase_6_cleanup_post_mortem",
-      "community": 8,
+      "community": 29,
       "norm_label": "phase 6 \u2014 cleanup + post-mortem"
     },
     {
@@ -4436,7 +4409,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 29,
       "norm_label": "domain docs config",
       "id": "setup_matt_pocock_skills_skill_domain_docs"
     },
@@ -4449,7 +4422,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 29,
       "norm_label": "domain glossary",
       "id": "setup_matt_pocock_skills_domain_glossary"
     },
@@ -4462,7 +4435,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 29,
       "norm_label": "architecture decision record",
       "id": "setup_matt_pocock_skills_domain_adr"
     },
@@ -4670,7 +4643,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 29,
       "norm_label": "feedback loop",
       "id": "diagnose_skill_feedback_loop"
     },
@@ -4683,7 +4656,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 29,
       "norm_label": "falsifiable hypothesis",
       "id": "diagnose_skill_hypothesis"
     },
@@ -4696,7 +4669,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 8,
+      "community": 29,
       "norm_label": "regression test",
       "id": "diagnose_skill_regression_test"
     },
@@ -9385,26 +9358,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "store/weather.ts",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "store_weather_ts",
-      "target": "store_weather_readcachedlocation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "store/weather.ts",
-      "source_location": "L27",
-      "weight": 1.0,
-      "source": "store_weather_ts",
-      "target": "store_weather_writecachedlocation",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "store/weather.ts",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -9420,16 +9373,6 @@
       "confidence_score": 1.0,
       "source": "store_weather_ts",
       "target": "store_weather_useweatherstore"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "store/weather.ts",
-      "source_location": "L53",
-      "weight": 1.0,
-      "source": "store_weather_ts",
-      "target": "store_weather_cached",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11735,5 +11678,5 @@
       "source_file": ".agents/skills/prototype/SKILL.md"
     }
   ],
-  "built_at_commit": "31eda10de9b6384ea978539660d2c702dc97b1c1"
+  "built_at_commit": "e189c61031c25949834d420b3fdbbfb17ca18a44"
 }
