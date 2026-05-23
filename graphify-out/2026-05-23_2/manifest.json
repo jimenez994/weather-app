@@ -55,13 +55,13 @@
     "semantic_hash": "46a2a00761be2785e59661f0e3c11471"
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/.claude/settings.local.json": {
-    "mtime": 1779545012.5274274,
-    "ast_hash": "56cc4b9262412963c7680a80811d829b",
+    "mtime": 1779544383.3786023,
+    "ast_hash": "89ba8d7e58db4a61d8cb707b3e254a43",
     "semantic_hash": ""
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/ui/metric-info-popover.tsx": {
-    "mtime": 1779545552.8096836,
-    "ast_hash": "6838606c7362350b9211f336d48d1744",
+    "mtime": 1779544349.9177856,
+    "ast_hash": "0473e7d06a309221538138d3f8ff1f18",
     "semantic_hash": ""
   },
   "/Users/jonathanjimenez/Documents/Developer/Projects/weather_app/components/ui/glass-card.tsx": {

@@ -5,7 +5,10 @@
       "Bash(npm install *)",
       "Bash(graphify query *)",
       "Bash(graphify path *)",
-      "Bash(graphify update *)"
+      "Bash(graphify update *)",
+      "Bash(npx tsc *)",
+      "Bash(graphify explain *)",
+      "Bash(npx next *)"
     ]
   }
 }

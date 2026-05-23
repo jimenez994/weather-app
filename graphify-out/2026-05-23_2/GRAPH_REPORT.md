@@ -1,7 +1,7 @@
 # Graph Report - weather_app  (2026-05-23)
 
 ## Corpus Check
-- 59 files · ~24,072 words
+- 59 files · ~23,817 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e189c610`
+- Built from commit: `27ca5d42`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 

@@ -1229,7 +1229,7 @@
       "label": "MetricInfoPopoverProps",
       "file_type": "code",
       "source_file": "components/ui/metric-info-popover.tsx",
-      "source_location": "L10",
+      "source_location": "L9",
       "id": "ui_metric_info_popover_metricinfopopoverprops",
       "community": 0,
       "norm_label": "metricinfopopoverprops"
@@ -1238,7 +1238,7 @@
       "label": "MetricInfoPopover",
       "file_type": "code",
       "source_file": "components/ui/metric-info-popover.tsx",
-      "source_location": "L16",
+      "source_location": "L15",
       "id": "ui_metric_info_popover_metricinfopopover",
       "community": 0,
       "norm_label": "metricinfopopover"
@@ -6652,9 +6652,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_settings_json",
-      "target": "claude_settings_hooks"
+      "target": "claude_settings_hooks",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -6662,9 +6662,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_pretooluse"
+      "target": "claude_settings_hooks_pretooluse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9380,9 +9380,9 @@
       "source_file": "README.md",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "weather_app_readme_getting_started"
+      "target": "weather_app_readme_getting_started",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9390,9 +9390,9 @@
       "source_file": "README.md",
       "source_location": "L23",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "weather_app_readme_learn_more"
+      "target": "weather_app_readme_learn_more",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9400,9 +9400,9 @@
       "source_file": "README.md",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "weather_app_readme_deploy_on_vercel"
+      "target": "weather_app_readme_deploy_on_vercel",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9410,9 +9410,9 @@
       "source_file": "README.md",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "weather_app_readme_weather_app"
+      "target": "weather_app_readme_weather_app",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9420,9 +9420,9 @@
       "source_file": "README.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "weather_app_readme_getting_started",
-      "target": "weather_app_readme_codeblock_1"
+      "target": "weather_app_readme_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9430,9 +9430,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_md",
-      "target": "weather_app_agents_this_is_not_the_next_js_you_know"
+      "target": "weather_app_agents_this_is_not_the_next_js_you_know",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9440,9 +9440,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_md",
-      "target": "weather_app_claude_graphify"
+      "target": "weather_app_claude_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9450,9 +9450,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-gitlab.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_setup_matt_pocock_skills_issue_tracker_gitlab_md",
-      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_issue_tracker_gitlab"
+      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_issue_tracker_gitlab",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9460,9 +9460,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-gitlab.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_gitlab_issue_tracker_gitlab",
-      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_conventions"
+      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_conventions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9470,9 +9470,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-gitlab.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_gitlab_issue_tracker_gitlab",
-      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_when_a_skill_says_publish_to_the_issue_tracker"
+      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_when_a_skill_says_publish_to_the_issue_tracker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9480,9 +9480,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-gitlab.md",
       "source_location": "L21",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_gitlab_issue_tracker_gitlab",
-      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_when_a_skill_says_fetch_the_relevant_ticket"
+      "target": "setup_matt_pocock_skills_issue_tracker_gitlab_when_a_skill_says_fetch_the_relevant_ticket",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9490,9 +9490,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_setup_matt_pocock_skills_domain_md",
-      "target": "setup_matt_pocock_skills_domain_domain_docs"
+      "target": "setup_matt_pocock_skills_domain_domain_docs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9500,9 +9500,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_domain_domain_docs",
-      "target": "setup_matt_pocock_skills_domain_before_exploring_read_these"
+      "target": "setup_matt_pocock_skills_domain_before_exploring_read_these",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9510,9 +9510,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_domain_domain_docs",
-      "target": "setup_matt_pocock_skills_domain_file_structure"
+      "target": "setup_matt_pocock_skills_domain_file_structure",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9520,9 +9520,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_domain_domain_docs",
-      "target": "setup_matt_pocock_skills_domain_use_the_glossary_s_vocabulary"
+      "target": "setup_matt_pocock_skills_domain_use_the_glossary_s_vocabulary",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9530,9 +9530,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_domain_domain_docs",
-      "target": "setup_matt_pocock_skills_domain_flag_adr_conflicts"
+      "target": "setup_matt_pocock_skills_domain_flag_adr_conflicts",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9540,9 +9540,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_domain_file_structure",
-      "target": "setup_matt_pocock_skills_domain_codeblock_1"
+      "target": "setup_matt_pocock_skills_domain_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9550,9 +9550,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/domain.md",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_domain_file_structure",
-      "target": "setup_matt_pocock_skills_domain_codeblock_2"
+      "target": "setup_matt_pocock_skills_domain_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9560,9 +9560,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/triage-labels.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_setup_matt_pocock_skills_triage_labels_md",
-      "target": "setup_matt_pocock_skills_triage_labels_triage_labels"
+      "target": "setup_matt_pocock_skills_triage_labels_triage_labels",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9570,9 +9570,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_setup_matt_pocock_skills_skill_md",
-      "target": "setup_matt_pocock_skills_skill_setup_matt_pocock_s_skills"
+      "target": "setup_matt_pocock_skills_skill_setup_matt_pocock_s_skills",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9580,9 +9580,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_setup_matt_pocock_s_skills",
-      "target": "setup_matt_pocock_skills_skill_process"
+      "target": "setup_matt_pocock_skills_skill_process",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9590,9 +9590,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_process",
-      "target": "setup_matt_pocock_skills_skill_1_explore"
+      "target": "setup_matt_pocock_skills_skill_1_explore",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9600,9 +9600,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_process",
-      "target": "setup_matt_pocock_skills_skill_2_present_findings_and_ask"
+      "target": "setup_matt_pocock_skills_skill_2_present_findings_and_ask",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9610,9 +9610,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L70",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_process",
-      "target": "setup_matt_pocock_skills_skill_3_confirm_and_edit"
+      "target": "setup_matt_pocock_skills_skill_3_confirm_and_edit",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9620,9 +9620,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L79",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_process",
-      "target": "setup_matt_pocock_skills_skill_4_write"
+      "target": "setup_matt_pocock_skills_skill_4_write",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9630,9 +9630,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L119",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_process",
-      "target": "setup_matt_pocock_skills_skill_5_done"
+      "target": "setup_matt_pocock_skills_skill_5_done",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9640,9 +9640,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/SKILL.md",
       "source_location": "L93",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_skill_4_write",
-      "target": "setup_matt_pocock_skills_skill_codeblock_1"
+      "target": "setup_matt_pocock_skills_skill_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9650,9 +9650,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-github.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_setup_matt_pocock_skills_issue_tracker_github_md",
-      "target": "setup_matt_pocock_skills_issue_tracker_github_issue_tracker_github"
+      "target": "setup_matt_pocock_skills_issue_tracker_github_issue_tracker_github",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9660,9 +9660,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-github.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_github_issue_tracker_github",
-      "target": "setup_matt_pocock_skills_issue_tracker_github_conventions"
+      "target": "setup_matt_pocock_skills_issue_tracker_github_conventions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9670,9 +9670,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-github.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_github_issue_tracker_github",
-      "target": "setup_matt_pocock_skills_issue_tracker_github_when_a_skill_says_publish_to_the_issue_tracker"
+      "target": "setup_matt_pocock_skills_issue_tracker_github_when_a_skill_says_publish_to_the_issue_tracker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9680,9 +9680,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-github.md",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_github_issue_tracker_github",
-      "target": "setup_matt_pocock_skills_issue_tracker_github_when_a_skill_says_fetch_the_relevant_ticket"
+      "target": "setup_matt_pocock_skills_issue_tracker_github_when_a_skill_says_fetch_the_relevant_ticket",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9690,9 +9690,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-local.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_setup_matt_pocock_skills_issue_tracker_local_md",
-      "target": "setup_matt_pocock_skills_issue_tracker_local_issue_tracker_local_markdown"
+      "target": "setup_matt_pocock_skills_issue_tracker_local_issue_tracker_local_markdown",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9700,9 +9700,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-local.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_local_issue_tracker_local_markdown",
-      "target": "setup_matt_pocock_skills_issue_tracker_local_conventions"
+      "target": "setup_matt_pocock_skills_issue_tracker_local_conventions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9710,9 +9710,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-local.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_local_issue_tracker_local_markdown",
-      "target": "setup_matt_pocock_skills_issue_tracker_local_when_a_skill_says_publish_to_the_issue_tracker"
+      "target": "setup_matt_pocock_skills_issue_tracker_local_when_a_skill_says_publish_to_the_issue_tracker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9720,9 +9720,9 @@
       "source_file": ".agents/skills/setup-matt-pocock-skills/issue-tracker-local.md",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "setup_matt_pocock_skills_issue_tracker_local_issue_tracker_local_markdown",
-      "target": "setup_matt_pocock_skills_issue_tracker_local_when_a_skill_says_fetch_the_relevant_ticket"
+      "target": "setup_matt_pocock_skills_issue_tracker_local_when_a_skill_says_fetch_the_relevant_ticket",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9730,9 +9730,9 @@
       "source_file": ".agents/skills/prototype/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_prototype_skill_md",
-      "target": "prototype_skill_prototype"
+      "target": "prototype_skill_prototype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9740,9 +9740,9 @@
       "source_file": ".agents/skills/prototype/SKILL.md",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_skill_prototype",
-      "target": "prototype_skill_pick_a_branch"
+      "target": "prototype_skill_pick_a_branch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9750,9 +9750,9 @@
       "source_file": ".agents/skills/prototype/SKILL.md",
       "source_location": "L19",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_skill_prototype",
-      "target": "prototype_skill_rules_that_apply_to_both"
+      "target": "prototype_skill_rules_that_apply_to_both",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9760,9 +9760,9 @@
       "source_file": ".agents/skills/prototype/SKILL.md",
       "source_location": "L28",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_skill_prototype",
-      "target": "prototype_skill_when_done"
+      "target": "prototype_skill_when_done",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -9790,9 +9790,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_prototype_logic_md",
-      "target": "prototype_logic_logic_prototype"
+      "target": "prototype_logic_logic_prototype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9800,9 +9800,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_logic_prototype",
-      "target": "prototype_logic_when_this_is_the_right_shape"
+      "target": "prototype_logic_when_this_is_the_right_shape",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9810,9 +9810,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_logic_prototype",
-      "target": "prototype_logic_process"
+      "target": "prototype_logic_process",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9820,9 +9820,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L73",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_logic_prototype",
-      "target": "prototype_logic_anti_patterns"
+      "target": "prototype_logic_anti_patterns",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9830,9 +9830,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_1_state_the_question"
+      "target": "prototype_logic_1_state_the_question",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9840,9 +9840,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L20",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_2_pick_the_language"
+      "target": "prototype_logic_2_pick_the_language",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9850,9 +9850,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L26",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_3_isolate_the_logic_in_a_portable_module"
+      "target": "prototype_logic_3_isolate_the_logic_in_a_portable_module",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9860,9 +9860,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L41",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_4_build_the_smallest_tui_that_exposes_the_state"
+      "target": "prototype_logic_4_build_the_smallest_tui_that_exposes_the_state",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9870,9 +9870,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_5_make_it_runnable_in_one_command"
+      "target": "prototype_logic_5_make_it_runnable_in_one_command",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9880,9 +9880,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_6_hand_it_over"
+      "target": "prototype_logic_6_hand_it_over",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9890,9 +9890,9 @@
       "source_file": ".agents/skills/prototype/LOGIC.md",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_logic_process",
-      "target": "prototype_logic_7_capture_the_answer"
+      "target": "prototype_logic_7_capture_the_answer",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9900,9 +9900,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_prototype_ui_md",
-      "target": "prototype_ui_ui_prototype"
+      "target": "prototype_ui_ui_prototype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9910,9 +9910,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_ui_prototype",
-      "target": "prototype_ui_when_this_is_the_right_shape"
+      "target": "prototype_ui_when_this_is_the_right_shape",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9920,9 +9920,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_ui_prototype",
-      "target": "prototype_ui_two_sub_shapes_strongly_prefer_sub_shape_a"
+      "target": "prototype_ui_two_sub_shapes_strongly_prefer_sub_shape_a",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9930,9 +9930,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_ui_prototype",
-      "target": "prototype_ui_process"
+      "target": "prototype_ui_process",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9940,9 +9940,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L107",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_ui_prototype",
-      "target": "prototype_ui_anti_patterns"
+      "target": "prototype_ui_anti_patterns",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9950,9 +9950,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_two_sub_shapes_strongly_prefer_sub_shape_a",
-      "target": "prototype_ui_sub_shape_a_adjustment_to_an_existing_page_preferred"
+      "target": "prototype_ui_sub_shape_a_adjustment_to_an_existing_page_preferred",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9960,9 +9960,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_two_sub_shapes_strongly_prefer_sub_shape_a",
-      "target": "prototype_ui_sub_shape_b_a_new_page_last_resort"
+      "target": "prototype_ui_sub_shape_b_a_new_page_last_resort",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9970,9 +9970,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_process",
-      "target": "prototype_ui_1_state_the_question_and_pick_n"
+      "target": "prototype_ui_1_state_the_question_and_pick_n",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9980,9 +9980,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L46",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_process",
-      "target": "prototype_ui_2_generate_radically_different_variants"
+      "target": "prototype_ui_2_generate_radically_different_variants",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -9990,9 +9990,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L56",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_process",
-      "target": "prototype_ui_3_wire_them_together"
+      "target": "prototype_ui_3_wire_them_together",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10000,9 +10000,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_process",
-      "target": "prototype_ui_4_build_the_floating_switcher"
+      "target": "prototype_ui_4_build_the_floating_switcher",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10010,9 +10010,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L94",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_process",
-      "target": "prototype_ui_5_hand_it_over"
+      "target": "prototype_ui_5_hand_it_over",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10020,9 +10020,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L98",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_process",
-      "target": "prototype_ui_6_capture_the_answer_and_clean_up"
+      "target": "prototype_ui_6_capture_the_answer_and_clean_up",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10030,9 +10030,9 @@
       "source_file": ".agents/skills/prototype/UI.md",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "prototype_ui_3_wire_them_together",
-      "target": "prototype_ui_codeblock_1"
+      "target": "prototype_ui_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10040,9 +10040,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_diagnose_skill_md",
-      "target": "diagnose_skill_diagnose"
+      "target": "diagnose_skill_diagnose",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10050,9 +10050,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_diagnose",
-      "target": "diagnose_skill_phase_1_build_a_feedback_loop"
+      "target": "diagnose_skill_phase_1_build_a_feedback_loop",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10060,9 +10060,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L53",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_diagnose",
-      "target": "diagnose_skill_phase_2_reproduce"
+      "target": "diagnose_skill_phase_2_reproduce",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10070,9 +10070,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L65",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_diagnose",
-      "target": "diagnose_skill_phase_3_hypothesise"
+      "target": "diagnose_skill_phase_3_hypothesise",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10080,9 +10080,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L77",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_diagnose",
-      "target": "diagnose_skill_phase_4_instrument"
+      "target": "diagnose_skill_phase_4_instrument",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10090,9 +10090,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L91",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_diagnose",
-      "target": "diagnose_skill_phase_5_fix_regression_test"
+      "target": "diagnose_skill_phase_5_fix_regression_test",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10100,9 +10100,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L107",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_diagnose",
-      "target": "diagnose_skill_phase_6_cleanup_post_mortem"
+      "target": "diagnose_skill_phase_6_cleanup_post_mortem",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10150,9 +10150,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_phase_1_build_a_feedback_loop",
-      "target": "diagnose_skill_ways_to_construct_one_try_them_in_roughly_this_order"
+      "target": "diagnose_skill_ways_to_construct_one_try_them_in_roughly_this_order",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10160,9 +10160,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_phase_1_build_a_feedback_loop",
-      "target": "diagnose_skill_iterate_on_the_loop_itself"
+      "target": "diagnose_skill_iterate_on_the_loop_itself",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10170,9 +10170,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L43",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_phase_1_build_a_feedback_loop",
-      "target": "diagnose_skill_non_deterministic_bugs"
+      "target": "diagnose_skill_non_deterministic_bugs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10180,9 +10180,9 @@
       "source_file": ".agents/skills/diagnose/SKILL.md",
       "source_location": "L47",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "diagnose_skill_phase_1_build_a_feedback_loop",
-      "target": "diagnose_skill_when_you_genuinely_cannot_build_a_loop"
+      "target": "diagnose_skill_when_you_genuinely_cannot_build_a_loop",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10190,9 +10190,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_to_issues_skill_md",
-      "target": "to_issues_skill_to_issues"
+      "target": "to_issues_skill_to_issues",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10200,9 +10200,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_to_issues",
-      "target": "to_issues_skill_process"
+      "target": "to_issues_skill_process",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10210,9 +10210,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L59",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_to_issues",
-      "target": "to_issues_skill_parent"
+      "target": "to_issues_skill_parent",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10220,9 +10220,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_to_issues",
-      "target": "to_issues_skill_what_to_build"
+      "target": "to_issues_skill_what_to_build",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10230,9 +10230,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_to_issues",
-      "target": "to_issues_skill_acceptance_criteria"
+      "target": "to_issues_skill_acceptance_criteria",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10240,9 +10240,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L75",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_to_issues",
-      "target": "to_issues_skill_blocked_by"
+      "target": "to_issues_skill_blocked_by",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -10280,9 +10280,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_process",
-      "target": "to_issues_skill_1_gather_context"
+      "target": "to_issues_skill_1_gather_context",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10290,9 +10290,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_process",
-      "target": "to_issues_skill_2_explore_the_codebase_optional"
+      "target": "to_issues_skill_2_explore_the_codebase_optional",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10300,9 +10300,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_process",
-      "target": "to_issues_skill_3_draft_vertical_slices"
+      "target": "to_issues_skill_3_draft_vertical_slices",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10310,9 +10310,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L34",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_process",
-      "target": "to_issues_skill_4_quiz_the_user"
+      "target": "to_issues_skill_4_quiz_the_user",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10320,9 +10320,9 @@
       "source_file": ".agents/skills/to-issues/SKILL.md",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "to_issues_skill_process",
-      "target": "to_issues_skill_5_publish_the_issues_to_the_issue_tracker"
+      "target": "to_issues_skill_5_publish_the_issues_to_the_issue_tracker",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10330,9 +10330,9 @@
       "source_file": ".agents/skills/caveman/SKILL.md",
       "source_location": "L12",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_caveman_skill_md",
-      "target": "caveman_skill_persistence"
+      "target": "caveman_skill_persistence",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10340,9 +10340,9 @@
       "source_file": ".agents/skills/caveman/SKILL.md",
       "source_location": "L16",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_caveman_skill_md",
-      "target": "caveman_skill_rules"
+      "target": "caveman_skill_rules",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10350,9 +10350,9 @@
       "source_file": ".agents/skills/caveman/SKILL.md",
       "source_location": "L37",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "agents_skills_caveman_skill_md",
-      "target": "caveman_skill_auto_clarity_exception"
+      "target": "caveman_skill_auto_clarity_exception",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10360,9 +10360,9 @@
       "source_file": ".agents/skills/caveman/SKILL.md",
       "source_location": "L27",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "caveman_skill_rules",
-      "target": "caveman_skill_examples"
+      "target": "caveman_skill_examples",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10370,9 +10370,9 @@
       "source_file": ".claude/CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_claude_md",
-      "target": "claude_claude_graphify"
+      "target": "claude_claude_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10380,9 +10380,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "claude_skills_graphify_skill_md",
-      "target": "graphify_skill_graphify"
+      "target": "graphify_skill_graphify",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10390,9 +10390,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L11",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_usage"
+      "target": "graphify_skill_usage",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10400,9 +10400,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L44",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_graphify_is_for"
+      "target": "graphify_skill_what_graphify_is_for",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10410,9 +10410,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L48",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_what_you_must_do_when_invoked"
+      "target": "graphify_skill_what_you_must_do_when_invoked",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10420,9 +10420,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L768",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_interpreter_guard_for_subcommands"
+      "target": "graphify_skill_interpreter_guard_for_subcommands",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10430,9 +10430,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L786",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_update_incremental_re_extraction"
+      "target": "graphify_skill_for_update_incremental_re_extraction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10440,9 +10440,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L947",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_cluster_only"
+      "target": "graphify_skill_for_cluster_only",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10450,9 +10450,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L959",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_query"
+      "target": "graphify_skill_for_graphify_query",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10460,9 +10460,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L985",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_path"
+      "target": "graphify_skill_for_graphify_path",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10470,9 +10470,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1003",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_explain"
+      "target": "graphify_skill_for_graphify_explain",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10480,9 +10480,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1021",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_graphify_add"
+      "target": "graphify_skill_for_graphify_add",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10490,9 +10490,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1055",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_watch"
+      "target": "graphify_skill_for_watch",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10500,9 +10500,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1076",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_git_commit_hook"
+      "target": "graphify_skill_for_git_commit_hook",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10510,9 +10510,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1092",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_for_native_claude_md_integration"
+      "target": "graphify_skill_for_native_claude_md_integration",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10520,9 +10520,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1108",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_graphify",
-      "target": "graphify_skill_honesty_rules"
+      "target": "graphify_skill_honesty_rules",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10530,9 +10530,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L13",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_usage",
-      "target": "graphify_skill_codeblock_1"
+      "target": "graphify_skill_codeblock_1",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10540,9 +10540,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L60",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given"
+      "target": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10550,9 +10550,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L103",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_1_ensure_graphify_is_installed"
+      "target": "graphify_skill_step_1_ensure_graphify_is_installed",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10560,9 +10560,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L145",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_detect_files"
+      "target": "graphify_skill_step_2_detect_files",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10570,9 +10570,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L182",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected"
+      "target": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10580,9 +10580,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L227",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_3_extract_entities_and_relationships"
+      "target": "graphify_skill_step_3_extract_entities_and_relationships",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10590,9 +10590,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L512",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs"
+      "target": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10600,9 +10600,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L564",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_5_label_communities"
+      "target": "graphify_skill_step_5_label_communities",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10610,9 +10610,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L604",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html"
+      "target": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10620,9 +10620,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L624",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_6b_wiki_only_if_wiki_flag"
+      "target": "graphify_skill_step_6b_wiki_only_if_wiki_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10630,9 +10630,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L634",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag"
+      "target": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10640,9 +10640,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L650",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag"
+      "target": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10650,9 +10650,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L656",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag"
+      "target": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10660,9 +10660,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L662",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag"
+      "target": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10670,9 +10670,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L682",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000"
+      "target": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10680,9 +10680,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L694",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_what_you_must_do_when_invoked",
-      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report"
+      "target": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10690,9 +10690,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L63",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "target": "graphify_skill_codeblock_2"
+      "target": "graphify_skill_codeblock_2",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10700,9 +10700,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L69",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "target": "graphify_skill_codeblock_3"
+      "target": "graphify_skill_codeblock_3",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10710,9 +10710,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L87",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_0_clone_github_repo_s_only_if_a_github_url_was_given",
-      "target": "graphify_skill_codeblock_4"
+      "target": "graphify_skill_codeblock_4",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10720,9 +10720,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L105",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_1_ensure_graphify_is_installed",
-      "target": "graphify_skill_codeblock_5"
+      "target": "graphify_skill_codeblock_5",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10730,9 +10730,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L147",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_2_detect_files",
-      "target": "graphify_skill_codeblock_6"
+      "target": "graphify_skill_codeblock_6",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10740,9 +10740,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L159",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_2_detect_files",
-      "target": "graphify_skill_codeblock_7"
+      "target": "graphify_skill_codeblock_7",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10750,9 +10750,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L203",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_2_5_transcribe_video_audio_files_only_if_video_files_detected",
-      "target": "graphify_skill_codeblock_8"
+      "target": "graphify_skill_codeblock_8",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10760,9 +10760,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L244",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_a_structural_extraction_for_code_files"
+      "target": "graphify_skill_part_a_structural_extraction_for_code_files",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10770,9 +10770,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L270",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents"
+      "target": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10780,9 +10780,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L478",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_3_extract_entities_and_relationships",
-      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction"
+      "target": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10790,9 +10790,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L248",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_a_structural_extraction_for_code_files",
-      "target": "graphify_skill_codeblock_9"
+      "target": "graphify_skill_codeblock_9",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10800,9 +10800,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L286",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_10"
+      "target": "graphify_skill_codeblock_10",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10810,9 +10810,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L317",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_11"
+      "target": "graphify_skill_codeblock_11",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10820,9 +10820,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L327",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_12"
+      "target": "graphify_skill_codeblock_12",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10830,9 +10830,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L334",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_13"
+      "target": "graphify_skill_codeblock_13",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10840,9 +10840,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L410",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_14"
+      "target": "graphify_skill_codeblock_14",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10850,9 +10850,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L434",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_15"
+      "target": "graphify_skill_codeblock_15",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10860,9 +10860,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L447",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_b_semantic_extraction_parallel_subagents",
-      "target": "graphify_skill_codeblock_16"
+      "target": "graphify_skill_codeblock_16",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10870,9 +10870,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L480",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_part_c_merge_ast_semantic_into_final_extraction",
-      "target": "graphify_skill_codeblock_17"
+      "target": "graphify_skill_codeblock_17",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10880,9 +10880,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L516",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_4_build_graph_cluster_analyze_generate_outputs",
-      "target": "graphify_skill_codeblock_18"
+      "target": "graphify_skill_codeblock_18",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10890,9 +10890,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L570",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_5_label_communities",
-      "target": "graphify_skill_codeblock_19"
+      "target": "graphify_skill_codeblock_19",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10900,9 +10900,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L612",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "target": "graphify_skill_codeblock_20"
+      "target": "graphify_skill_codeblock_20",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10910,9 +10910,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L619",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_6_generate_obsidian_vault_opt_in_html",
-      "target": "graphify_skill_codeblock_21"
+      "target": "graphify_skill_codeblock_21",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10920,9 +10920,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L630",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_6b_wiki_only_if_wiki_flag",
-      "target": "graphify_skill_codeblock_22"
+      "target": "graphify_skill_codeblock_22",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10930,9 +10930,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L638",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "target": "graphify_skill_codeblock_23"
+      "target": "graphify_skill_codeblock_23",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10940,9 +10940,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L644",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_7_neo4j_export_only_if_neo4j_or_neo4j_push_flag",
-      "target": "graphify_skill_codeblock_24"
+      "target": "graphify_skill_codeblock_24",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10950,9 +10950,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L652",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_7b_svg_export_only_if_svg_flag",
-      "target": "graphify_skill_codeblock_25"
+      "target": "graphify_skill_codeblock_25",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10960,9 +10960,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L658",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_7c_graphml_export_only_if_graphml_flag",
-      "target": "graphify_skill_codeblock_26"
+      "target": "graphify_skill_codeblock_26",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10970,9 +10970,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L664",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
-      "target": "graphify_skill_codeblock_27"
+      "target": "graphify_skill_codeblock_27",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10980,9 +10980,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L671",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_7d_mcp_server_only_if_mcp_flag",
-      "target": "graphify_skill_codeblock_28"
+      "target": "graphify_skill_codeblock_28",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10990,9 +10990,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L686",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_8_token_reduction_benchmark_only_if_total_words_5000",
-      "target": "graphify_skill_codeblock_29"
+      "target": "graphify_skill_codeblock_29",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11000,9 +11000,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L696",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "target": "graphify_skill_codeblock_30"
+      "target": "graphify_skill_codeblock_30",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11010,9 +11010,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L738",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_step_9_save_manifest_update_cost_tracker_clean_up_and_report",
-      "target": "graphify_skill_codeblock_31"
+      "target": "graphify_skill_codeblock_31",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11020,9 +11020,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L772",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_interpreter_guard_for_subcommands",
-      "target": "graphify_skill_codeblock_32"
+      "target": "graphify_skill_codeblock_32",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11030,9 +11030,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L790",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_update_incremental_re_extraction",
-      "target": "graphify_skill_codeblock_33"
+      "target": "graphify_skill_codeblock_33",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11040,9 +11040,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L813",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_update_incremental_re_extraction",
-      "target": "graphify_skill_codeblock_34"
+      "target": "graphify_skill_codeblock_34",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11050,9 +11050,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L831",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_update_incremental_re_extraction",
-      "target": "graphify_skill_codeblock_35"
+      "target": "graphify_skill_codeblock_35",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11060,9 +11060,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L852",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_update_incremental_re_extraction",
-      "target": "graphify_skill_codeblock_36"
+      "target": "graphify_skill_codeblock_36",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11070,9 +11070,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L866",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_update_incremental_re_extraction",
-      "target": "graphify_skill_codeblock_37"
+      "target": "graphify_skill_codeblock_37",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11080,9 +11080,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L917",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_update_incremental_re_extraction",
-      "target": "graphify_skill_codeblock_38"
+      "target": "graphify_skill_codeblock_38",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11090,9 +11090,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L951",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_cluster_only",
-      "target": "graphify_skill_codeblock_39"
+      "target": "graphify_skill_codeblock_39",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11100,9 +11100,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L968",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_query",
-      "target": "graphify_skill_codeblock_40"
+      "target": "graphify_skill_codeblock_40",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11110,9 +11110,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L977",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_query",
-      "target": "graphify_skill_codeblock_41"
+      "target": "graphify_skill_codeblock_41",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11120,9 +11120,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L989",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_path",
-      "target": "graphify_skill_codeblock_42"
+      "target": "graphify_skill_codeblock_42",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11130,9 +11130,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L997",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_path",
-      "target": "graphify_skill_codeblock_43"
+      "target": "graphify_skill_codeblock_43",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11140,9 +11140,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1007",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_explain",
-      "target": "graphify_skill_codeblock_44"
+      "target": "graphify_skill_codeblock_44",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11150,9 +11150,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1015",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_explain",
-      "target": "graphify_skill_codeblock_45"
+      "target": "graphify_skill_codeblock_45",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11160,9 +11160,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1025",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_graphify_add",
-      "target": "graphify_skill_codeblock_46"
+      "target": "graphify_skill_codeblock_46",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11170,9 +11170,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1059",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_watch",
-      "target": "graphify_skill_codeblock_47"
+      "target": "graphify_skill_codeblock_47",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11180,9 +11180,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1080",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_git_commit_hook",
-      "target": "graphify_skill_codeblock_48"
+      "target": "graphify_skill_codeblock_48",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11190,9 +11190,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1096",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_native_claude_md_integration",
-      "target": "graphify_skill_codeblock_49"
+      "target": "graphify_skill_codeblock_49",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -11200,9 +11200,9 @@
       "source_file": ".claude/skills/graphify/SKILL.md",
       "source_location": "L1102",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "graphify_skill_for_native_claude_md_integration",
-      "target": "graphify_skill_codeblock_50"
+      "target": "graphify_skill_codeblock_50",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -11678,5 +11678,5 @@
       "source_file": ".agents/skills/prototype/SKILL.md"
     }
   ],
-  "built_at_commit": "e189c61031c25949834d420b3fdbbfb17ca18a44"
+  "built_at_commit": "27ca5d42ffe18d6f59a8065816556b79af7c458e"
 }
